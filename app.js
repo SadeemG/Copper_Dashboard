@@ -164,4 +164,12 @@ async function init() {
     state.data = await response.json();
     renderHeader(state.data); renderKpis(state.data.kpis); renderMap(state.data.disruptions);
     renderMineList(state.data.disruptions); renderTightness(state.data.tightness); renderOutlook();
-    renderDrivers(state.data.drivers); renderSources(state.data.sourcÛ~½ÚÚ$z{-®éÜj×öG’#¢%F†RvVV¶Ç’¦ö"6†V6·2÷W&F÷"&VÆV6W2Â&VwVÆF÷'’f–Æ–æw2æBv÷fW&æÖVçBæ÷F–6W2f—'7Bâ—BF†Vâ6†V6·2”54rÂ”TÂU4u2Âv÷&ÆB&æ²æB4ô4„”Ä4òâöæÇ’gFW"F†÷6R76W2FöW2—BVW'’tDTÅBæB'&öBæWw2f÷"WfVçG2F†BÖ’æ÷B–WBV"–â&–Ö'’F—66Æ÷7W&W2â Ğ¢ÒÀĞ¢°Ğ¢'F—FÆR#¢#"âF—7'WF–öâ66÷&R"ÀĞ¢&&öG’#¢%&—6²6öÖ&–æW266ÆRƒ3RR’Â7W'&VçB÷W&F–ær–×7Bƒ#RR’ÂW‡V7FVBGW&F–öâƒ#R’Â&V6÷fW'’Væ6W'F–çG’ƒR’æB6÷W&6R6öæf–FVæ6RƒR’â†–v‚—2s(	3ÂÖVF—VÒC(	3c’æBÆ÷r&VÆ÷rCâ&W6öÇfVBWfVçB6â&VÖ–âÖöæ—F÷&VBv†–ÆR—G2÷W&F–öæÂ&—6²fÆÇ2â Ğ¢ÒÀĞ¢°Ğ¢'F—FÆR#¢#2âÖ&¶WBF–v‡FæW72"ÀĞ¢&&öG’#¢$Ö–æRö6öæ6VçG&FRF–v‡FæW72æB&Vf–æVBÖÖ&¶WB&Ææ6R&R76W76VB6W&FVÇ’âG&VFÖVçB6†&vW2ÂÖ–æRWF–Æ—6F–öâÂ–çfVçF÷&–W2Â&Vf–æVB&Ææ6RæB67&&W7öç6R&Ræ÷B6öÆÆ6VB–çFòöæRVç7W÷'FVBçVÖ&W"â Ğ¢ÒÀĞ¢°Ğ¢'F—FÆR#¢#Bâ÷WFÆöö²F—66—Æ–æR"ÀĞ¢&&öG’#¢%V&Æ—6†VBf÷&V67G2&RÆ&VÆÆVB27V6‚â–çFW&æÂ66Væ&–òW‡FVç6–öç2F—66Æ÷6RF†V—"77V×F–öç2æB&RæWfW"&W6VçFVB2F†—&B×'G’f÷&V67G2âÖFW&–Â76W76ÖVçB6†ævW26†÷VÆB&V6V—fRæÇ—7B&Wf–Wr&Vf÷&R&V–ærFW67&–&VB2f–æÂâ Ğ¢ÒÀĞ¢°Ğ¢'F—FÆR#¢#RâVF—BG&–Â"ÀĞ¢&&öG’#¢$V6‚6æF–FFR—FVÒ&V6÷&G26÷W&6RF–W"ÂU$ÂÂ&WG&–WfÂF–ÖRæB6öçFVçBf–ævW'&–çBâvVV¶Ç’FF6†ævW2&R6öÖÖ—GFVBFòfW'6–öâ6öçG&öÂ&Vf÷&RFWÆ÷–ÖVçBÂv—f–ærF†RFVÒ&W&öGV6–&ÆR†—7F÷'’â Ğ¢ĞĞ¢ĞĞ§ĞĞ
+    renderDrivers(state.data.drivers); renderSources(state.data.source_register); renderMethodology(state.data.methodology);
+    bindInteractions();
+  } catch (error) {
+    document.body.innerHTML = `<main><section class="dashboard-section"><div class="section-heading"><div><h2>Dashboard data unavailable</h2><p>${error.message}</p></div></div></section></main>`;
+    console.error(error);
+  }
+}
+
+init();

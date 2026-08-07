@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "as_of": "7 August 2026",
+    "generated_at": "2026-08-07T10:51:18+00:00",
+    "next_refresh": "14 August 2026",
+    "sources_checked": 15,
+    "review_status": "candidate changes awaiting analyst review",
+    "schema_version": 1
+  },
+  "kpis": [
+    {
+      "label": "Disruption risk",
+      "value": "HIGH",
+      "detail": "Three high-risk assets; two recoveries and one closure",
+      "tone": "red"
+    },
+    {
+      "label": "Concentrate tightness",
+      "value": "TIGHT",
+      "detail": "Mine constraints persist despite refined-market surplus",
+      "tone": "orange"
+    },
+    {
+      "label": "2026 mine growth",
+      "value": "+1.6%",
+      "detail": "ICSG forecast, revised from +2.3%",
+      "tone": "orange"
+    },
+    {
+      "label": "2026 refined balance",
+      "value": "+96 kt",
+      "detail": "ICSG forecast surplus; demand and scrap sensitive",
+      "tone": "green"
+    }
+  ],
+  "disruptions": [
+    {
+      "id": "grasberg",
+      "rank": 1,
+      "name": "Grasberg",
+      "country": "Indonesia",
+      "operator": "PT Freeport Indonesia / Freeport-McMoRan",
+      "lat": -4.05,
+      "lon": 137.12,
+      "risk": "HIGH",
+      "status": "Recovering",
+      "issue": "Mud-rush remediation and phased ramp-up",
+      "trend": "↗",
+      "evidence": "The Grasberg Block Cave ramp-up followed the September 2025 external mud-rush incident. Production Blocks 2 and 3 restarted at the end of March 2026; the operator expects approximately 65% overall production rates in H2 2026, 80% by mid-2027 and near-full capacity by end-2027.",
+      "signal": "PTFI Q2 2026 copper production was 205 million lb versus 359 million lb in Q2 2025, a 43% year-on-year decline.",
+      "next_checkpoint": "Track H2 operating-rate delivery, Production Block 1S and concentrate availability for Indonesian smelters.",
+      "source": {
+        "name": "Freeport Q2 2026 results",
+        "url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_260723_2Q_2026_Earnings_Release.pdf",
+        "published": "23 Jul 2026",
+        "tier": 1
+      }
+    },
+    {
+      "id": "kamoa-kakula",
+      "rank": 2,
+      "name": "Kamoa-Kakula",
+      "country": "DR Congo",
+      "operator": "Kamoa Copper SA / Ivanhoe Mines",
+      "lat": -10.77,
+      "lon": 25.22,
+      "risk": "HIGH",
+      "status": "Recovering",
+      "issue": "Post-seismic recovery and constrained development",
+      "trend": "↗",
+      "evidence": "The complex remains in recovery after the May 2025 seismic event and flooding. Its March 2026 plan cited adverse geotechnical and hydrological conditions and reduced development-rate assumptions by about 15%.",
+      "signal": "Q2 2026 output was 64,328 tonnes. Maintained 2026 guidance of 290–330kt has a 310kt midpoint, 22.5% below the original 400kt midpoint.",
+      "next_checkpoint": "Track H2 Kamoa mining rates, development metres, Project 95 recovery gains and inventory drawdown.",
+      "source": {
+        "name": "Ivanhoe Q2 2026 update",
+        "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-64328-tonnes-of-copper-produced-by-kamoa-kakula-in-q2-2026/",
+        "published": "8 Jul 2026",
+        "tier": 1
+      }
+    },
+    {
+      "id": "cobre-panama",
+      "rank": 3,
+      "name": "Cobre Panamá",
+      "country": "Panama",
+      "operator": "First Quantum Minerals",
+      "lat": 8.84,
+      "lon": -80.64,
+      "risk": "HIGH",
+      "status": "Closed / stockpiles",
+      "issue": "Mining suspension persists",
+      "trend": "→",
+      "evidence": "Normal mining remains suspended. Government-authorised processing concerns material that was mined before the shutdown and should not be treated as a restart of mining operations.",
+      "signal": "First Quantum's 2026 guidance includes 30–40kt of copper from stockpiled ore at Cobre Panamá, with the remaining stockpile expected to be processed in 2027.",
+      "next_checkpoint": "Track audit conclusions, stockpile-processing milestones and any negotiated legal pathway for mining operations.",
+      "source": {
+        "name": "First Quantum Q1 2026 results",
+        "url": "https://www.first-quantum.com/news/first-quantum-minerals-reports-first-quarter-2026-results/",
+        "published": "28 Apr 2026",
+        "tier": 1
+      }
+    },
+    {
+      "id": "los-pelambres",
+      "rank": 4,
+      "name": "Los Pelambres",
+      "country": "Chile",
+      "operator": "Antofagasta plc",
+      "lat": -31.72,
+      "lon": -70.5,
+      "risk": "LOW",
+      "status": "Resolved / monitor",
+      "issue": "Weather and intermittent power",
+      "trend": "↘",
+      "evidence": "Heavy rain and intermittent power outages caused an orderly shutdown after 18 July. The operator reported that operations resumed by 23 July with no material impact to equipment or key infrastructure.",
+      "signal": "Antofagasta retained 2026 group copper guidance of 650–700kt following the event.",
+      "next_checkpoint": "Check the 13 August half-year update for recovery detail and continued weather resilience.",
+      "source": {
+        "name": "Antofagasta operational update",
+        "url": "https://www.antofagasta.co.uk/investors/news/2026/los-pelambres-operational-update/",
+        "published": "24 Jul 2026",
+        "tier": 1
+      }
+    }
+  ],
+  "tightness": {
+    "rating": "TIGHT AT THE MINE / CONCENTRATE LEVEL; BALANCED AT THE REFINED LEVEL",
+    "assessment": "The cleanest reading is a two-speed market. Major mine recoveries and constrained concentrate availability keep upstream conditions tight, while slower demand growth and more secondary refined production allow ICSG to forecast a small refined surplus. A refined surplus does not invalidate mine tightness; scrap, inventories and smelter utilisation can bridge the two balances.",
+    "indicators": [
+      {
+        "label": "World mine growth · 2026",
+        "value": "+1.6%",
+        "signal": "Revised down from +2.3%; DRC, Chile and Indonesia drove the revision.",
+        "spark": [
+          78,
+          72,
+          66,
+          61,
+          56,
+          51
+        ],
+        "source": {
+          "name": "ICSG Apr 2026 forecast",
+          "url": "https://icsg.org/download/2026-04-23-press-release-icsg-copper-market-forecast-2026-2027/",
+          "published": "23 Apr 2026",
+          "tier": 2
+        }
+      },
+      {
+        "label": "Mine capacity utilisation",
+        "value": "76.8%",
+        "signal": "Jan–Feb 2026 versus 79.3% a year earlier; consistent with disruption pressure.",
+        "spark": [
+          86,
+          84,
+          82,
+          80,
+          79,
+          77
+        ],
+        "source": {
+          "name": "ICSG Table 1",
+          "url": "https://icsg.org/wp-content/uploads/Table1.pdf",
+          "published": "2026 release",
+          "tier": 2
+        }
+      },
+      {
+        "label": "Refined balance · 2026",
+        "value": "+96 kt",
+        "signal": "A small surplus, changed from the October 2025 forecast deficit of 150kt.",
+        "spark": [
+          22,
+          31,
+          39,
+          49,
+          62,
+          72
+        ],
+        "source": {
+          "name": "ICSG Apr 2026 forecast",
+          "url": "https://icsg.org/download/2026-04-23-press-release-icsg-copper-market-forecast-2026-2027/",
+          "published": "23 Apr 2026",
+          "tier": 2
+        }
+      },
+      {
+        "label": "Structural supply gap · 2035",
+        "value": "25%",
+        "signal": "IEA projected gap between project-pipeline supply and demand under stated policies.",
+        "spark": [
+          42,
+          48,
+          55,
+          63,
+          72,
+          82
+        ],
+        "source": {
+          "name": "IEA Critical Minerals Outlook 2026",
+          "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+          "published": "2026",
+          "tier": 2
+        }
+      }
+    ]
+  },
+  "outlook": {
+    "sources": [
+      {
+        "name": "ICSG 2026–27 forecast",
+        "url": "https://icsg.org/download/2026-04-23-press-release-icsg-copper-market-forecast-2026-2027/"
+      },
+      {
+        "name": "IEA Critical Minerals Outlook 2026",
+        "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+      }
+    ],
+    "scenarios": {
+      "bear": {
+        "years": [
+          2026,
+          2027,
+          2028
+        ],
+        "supply": [
+          26.7,
+          27.3,
+          28.0
+        ],
+        "demand": [
+          26.6,
+          27.0,
+          27.5
+        ],
+        "note": "Bear refers to copper-demand conditions, not copper price: weaker use and faster scrap growth widen the refined surplus. 2028 is an internal scenario extension, not an ICSG forecast.",
+        "assumptions": [
+          {
+            "label": "Demand growth",
+            "detail": "Macro slowdown and weaker China impulse",
+            "value": "1.0–1.5%"
+          },
+          {
+            "label": "Mine recovery",
+            "detail": "Grasberg and Kamoa broadly on plan",
+            "value": "Faster"
+          },
+          {
+            "label": "Secondary supply",
+            "detail": "High prices accelerate scrap response",
+            "value": "Strong"
+          },
+          {
+            "label": "Indicative 2028 balance",
+            "detail": "Calculated scenario range",
+            "value": "+0.5 Mt"
+          }
+        ]
+      },
+      "base": {
+        "years": [
+          2026,
+          2027,
+          2028
+        ],
+        "supply": [
+          26.7,
+          27.5,
+          28.3
+        ],
+        "demand": [
+          26.6,
+          27.1,
+          27.8
+        ],
+        "note": "2026–27 direction is anchored to ICSG; 2028 is a transparent internal extension using approximately 2.3% supply and 2.5% demand growth. Values are scenario estimates, not a third-party forecast.",
+        "assumptions": [
+          {
+            "label": "Demand growth",
+            "detail": "Cyclical softness, structural support",
+            "value": "1.6–2.5%"
+          },
+          {
+            "label": "Mine recovery",
+            "detail": "Grasberg and Kamoa improve gradually",
+            "value": "On plan"
+          },
+          {
+            "label": "Secondary supply",
+            "detail": "Scrap offsets concentrate constraints",
+            "value": "Firm"
+          },
+          {
+            "label": "Indicative 2028 balance",
+            "detail": "Calculated scenario range",
+            "value": "+0.5 Mt"
+          }
+        ]
+      },
+      "bull": {
+        "years": [
+          2026,
+          2027,
+          2028
+        ],
+        "supply": [
+          26.6,
+          27.2,
+          27.8
+        ],
+        "demand": [
+          26.6,
+          27.4,
+          28.3
+        ],
+        "note": "Bull refers to copper-demand conditions: stronger electrification demand and slower mine recovery move the market into deficit. 2028 is an internal scenario, not an ICSG forecast.",
+        "assumptions": [
+          {
+            "label": "Demand growth",
+            "detail": "Grid, EV and data-centre upside",
+            "value": "2.8–3.5%"
+          },
+          {
+            "label": "Mine recovery",
+            "detail": "Further slippage at large assets",
+            "value": "Slower"
+          },
+          {
+            "label": "Secondary supply",
+            "detail": "Scrap response below expectation",
+            "value": "Moderate"
+          },
+          {
+            "label": "Indicative 2028 balance",
+            "detail": "Calculated scenario range",
+            "value": "−0.5 Mt"
+          }
+        ]
+      }
+    }
+  },
+  "drivers": {
+    "rating": "STRUCTURAL DRIVERS STRONG; CYCLICAL IMPULSE MIXED",
+    "assessment": "Grid investment, electric vehicles, renewables and data centres provide a durable multi-year demand floor. The IEA expects global electricity demand to grow 3.6% annually over 2026–30 and estimates that annual grid investment must rise roughly 50% from today's level by 2030. Near-term copper demand remains exposed to China's industrial cycle and global manufacturing, so structural strength can coexist with cyclical volatility.",
+    "items": [
+      {
+        "name": "China industrial cycle",
+        "type": "Cyclical",
+        "horizon": "0–12m",
+        "direction": "Mixed",
+        "momentum": "Monitor",
+        "evidence": 4
+      },
+      {
+        "name": "Global manufacturing",
+        "type": "Cyclical",
+        "horizon": "0–12m",
+        "direction": "Mixed",
+        "momentum": "Monitor",
+        "evidence": 3
+      },
+      {
+        "name": "Grid investment",
+        "type": "Structural",
+        "horizon": "1–5y",
+        "direction": "Positive",
+        "momentum": "Strengthening",
+        "evidence": 5
+      },
+      {
+        "name": "Electric vehicles",
+        "type": "Structural",
+        "horizon": "1–5y",
+        "direction": "Positive",
+        "momentum": "Firm",
+        "evidence": 5
+      },
+      {
+        "name": "Renewable generation",
+        "type": "Structural",
+        "horizon": "1–5y",
+        "direction": "Positive",
+        "momentum": "Firm",
+        "evidence": 5
+      },
+      {
+        "name": "Data centres",
+        "type": "Structural",
+        "horizon": "1–5y",
+        "direction": "Positive",
+        "momentum": "Strengthening",
+        "evidence": 4
+      }
+    ],
+    "sources": [
+      {
+        "name": "IEA Electricity 2026",
+        "url": "https://www.iea.org/reports/electricity-2026/executive-summary"
+      },
+      {
+        "name": "IEA Critical Minerals Outlook 2026",
+        "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview"
+      }
+    ]
+  },
+  "source_register": [
+    {
+      "tier": 1,
+      "label": "Primary operational evidence",
+      "sources": [
+        {
+          "name": "Freeport-McMoRan",
+          "url": "https://investors.fcx.com/investors/news-releases/default.aspx",
+          "scope": "Grasberg, Americas operations and guidance"
+        },
+        {
+          "name": "Ivanhoe Mines",
+          "url": "https://www.ivanhoemines.com/news-stories/news-releases/",
+          "scope": "Kamoa-Kakula production and recovery"
+        },
+        {
+          "name": "Antofagasta plc",
+          "url": "https://www.antofagasta.co.uk/investors/news/",
+          "scope": "Los Pelambres, Centinela and Chile weather"
+        },
+        {
+          "name": "First Quantum",
+          "url": "https://www.first-quantum.com/news/",
+          "scope": "Cobre Panamá, Zambia and guidance"
+        },
+        {
+          "name": "BHP",
+          "url": "https://www.bhp.com/news/media-centre/releases",
+          "scope": "Escondida, Spence, Antamina and South Australia"
+        },
+        {
+          "name": "Rio Tinto",
+          "url": "https://www.riotinto.com/news/releases",
+          "scope": "Oyu Tolgoi, Kennecott and Escondida interest"
+        },
+        {
+          "name": "Glencore",
+          "url": "https://www.glencore.com/media-and-insights/news",
+          "scope": "African Copper, Collahuasi, Antamina and Antapaccay"
+        },
+        {
+          "name": "Codelco",
+          "url": "https://www.codelco.com/en/prensa",
+          "scope": "El Teniente and Chilean state operations"
+        },
+        {
+          "name": "SEC EDGAR",
+          "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+          "scope": "Regulatory filings and issuer disclosures"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "label": "Market and structural context",
+      "sources": [
+        {
+          "name": "ICSG",
+          "url": "https://icsg.org/press-releases/",
+          "scope": "Mine, refined production, usage and balances"
+        },
+        {
+          "name": "IEA",
+          "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+          "scope": "Structural mineral supply and demand"
+        },
+        {
+          "name": "World Bank",
+          "url": "https://www.worldbank.org/en/research/commodity-markets",
+          "scope": "Commodity prices and macro outlook"
+        },
+        {
+          "name": "USGS",
+          "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
+          "scope": "Annual copper statistics"
+        },
+        {
+          "name": "COCHILCO",
+          "url": "https://www.cochilco.cl/",
+          "scope": "Chile production and copper-market studies"
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "label": "Broad-news discovery",
+      "sources": [
+        {
+          "name": "GDELT DOC 2.0",
+          "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+          "scope": "Wide-web event discovery after Tier 1 and Tier 2 checks"
+        },
+        {
+          "name": "Reuters / AP / mining press",
+          "url": "https://www.reuters.com/markets/commodities/",
+          "scope": "Corroboration and events not yet disclosed by operators"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    {
+      "title": "1. Source order",
+      "body": "The weekly job checks operator releases, regulatory filings and government notices first. It then checks ICSG, IEA, USGS, World Bank and COCHILCO. Only after those passes does it query GDELT and broad news for events that may not yet appear in primary disclosures."
+    },
+    {
+      "title": "2. Disruption score",
+      "body": "Risk combines scale (35%), current operating impact (25%), expected duration (20%), recovery uncertainty (10%) and source confidence (10%). High is 70–100, medium 40–69 and low below 40. A resolved event can remain monitored while its operational risk falls."
+    },
+    {
+      "title": "3. Market tightness",
+      "body": "Mine/concentrate tightness and refined-market balance are assessed separately. Treatment charges, mine utilisation, inventories, refined balance and scrap response are not collapsed into one unsupported number."
+    },
+    {
+      "title": "4. Outlook discipline",
+      "body": "Published forecasts are labelled as such. Internal scenario extensions disclose their assumptions and are never presented as third-party forecasts. Material assessment changes should receive analyst review before being described as final."
+    },
+    {
+      "title": "5. Audit trail",
+      "body": "Each candidate item records source tier, URL, retrieval time and content fingerprint. Weekly data changes are committed to version control before deployment, giving the team a reproducible history."
+    }
+  ]
+}

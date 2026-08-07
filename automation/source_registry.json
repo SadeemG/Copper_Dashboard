@@ -1,0 +1,30 @@
+{
+  "user_agent": "CopperMarketIntelligence/1.0 research-monitor contact=replace-with-team-email",
+  "timeout_seconds": 25,
+  "primary": [
+    {"id": "fcx", "name": "Freeport-McMoRan", "url": "https://investors.fcx.com/rss/pressrelease.aspx", "terms": ["Grasberg", "copper", "production", "restart", "force majeure"]},
+    {"id": "ivanhoe", "name": "Ivanhoe Mines", "url": "https://www.ivanhoemines.com/news-stories/", "terms": ["Kamoa", "Kakula", "seismic", "dewatering", "production"]},
+    {"id": "antofagasta", "name": "Antofagasta plc", "url": "https://www.antofagasta.co.uk/investors/news/", "terms": ["Los Pelambres", "Centinela", "copper", "weather", "strike"]},
+    {"id": "first-quantum", "name": "First Quantum Minerals", "url": "https://www.first-quantum.com/news/", "terms": ["Cobre Panama", "Kansanshi", "Sentinel", "copper", "guidance"]},
+    {"id": "bhp", "name": "BHP", "url": "https://www.bhp.com/news/media-centre/releases", "terms": ["Escondida", "Spence", "Antamina", "copper", "production"]},
+    {"id": "rio", "name": "Rio Tinto", "url": "https://www.riotinto.com/news/releases", "terms": ["Oyu Tolgoi", "Kennecott", "copper", "production"]},
+    {"id": "glencore", "name": "Glencore", "url": "https://www.glencore.com/media-and-insights/news", "terms": ["copper", "KCC", "Mutanda", "Collahuasi", "Antapaccay"]},
+    {"id": "codelco", "name": "Codelco", "url": "https://www.codelco.com/en/prensa", "terms": ["El Teniente", "copper", "restart", "accident", "production"]},
+    {"id": "lundin", "name": "Lundin Mining", "url": "https://lundinmining.com/news/", "terms": ["Caserones", "Candelaria", "copper", "strike"]},
+    {"id": "teck", "name": "Teck", "url": "https://www.teck.com/news/news-releases/", "terms": ["Quebrada Blanca", "Highland Valley", "copper", "guidance"]}
+  ],
+  "market_context": [
+    {"id": "icsg", "name": "International Copper Study Group", "url": "https://icsg.org/press-releases/", "terms": ["copper", "mine production", "refined", "balance", "usage"]},
+    {"id": "iea-minerals", "name": "IEA Critical Minerals", "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026", "terms": ["copper", "supply", "demand", "grid", "electric vehicles"]},
+    {"id": "world-bank", "name": "World Bank Commodity Markets", "url": "https://www.worldbank.org/en/research/commodity-markets", "terms": ["copper", "commodity markets outlook"]},
+    {"id": "usgs", "name": "USGS Copper Statistics", "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information", "terms": ["copper", "production", "capacity"]},
+    {"id": "cochilco", "name": "COCHILCO", "url": "https://www.cochilco.cl/", "terms": ["cobre", "produccion", "Chile", "mercado"]}
+  ],
+  "wide_web": {
+    "provider": "GDELT DOC 2.0",
+    "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "query": "(copper mine OR copper production) (shutdown OR disruption OR strike OR flood OR accident OR restart OR guidance)",
+    "max_records": 50,
+    "timespan": "7d"
+  }
+}
