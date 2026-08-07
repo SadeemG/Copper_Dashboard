@@ -1,160 +1,513 @@
-const state = { data: null, risk: "ALL", scenario: "base", selectedMine: null };
+const state = {
+  data: null,
+  risk: "ALL",
+  scenario: "base",
+  selectedMine: null,
+};
+
+const COLORS = {
+  white: "#FFFFFF",
+  black: "#000000",
+  blue050: "#BFEFFF",
+  blue100: "#80DCFF",
+  blue300: "#00B5FF",
+  blue500: "#007AA8",
+  blue700: "#004A64",
+  blue900: "#002532",
+  red050: "#FFE6ED",
+  red100: "#FFCCD9",
+  red300: "#FF80A1",
+  red500: "#FF0042",
+  red700: "#A8002F",
+  red900: "#64001C",
+  green050: "#C3FFE7",
+  green100: "#5FFEBF",
+  green300: "#01DD85",
+  green500: "#00965B",
+  green700: "#00643C",
+  green900: "#00321E",
+};
+
+const FONT_FAMILY = "Roboto, sans-serif";
+const PLOT_CONFIG = {
+  responsive: true,
+  displaylogo: false,
+  displayModeBar: "hover",
+  modeBarButtonsToRemove: [
+    "zoom2d",
+    "pan2d",
+    "select2d",
+    "lasso2d",
+    "zoomIn2d",
+    "zoomOut2d",
+    "autoScale2d",
+    "resetScale2d",
+    "hoverClosestCartesian",
+    "hoverCompareCartesian",
+    "toggleSpikelines",
+    "zoomInGeo",
+    "zoomOutGeo",
+    "resetGeo",
+  ],
+  toImageButtonOptions: {
+    format: "png",
+    filename: "ts-lombard-copper-intelligence",
+    scale: 2,
+  },
+  scrollZoom: false,
+};
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
-const riskClass = (risk) => risk.toLowerCase();
-const toneClass = (tone) => `tone-${tone || "orange"}`;
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function safeUrl(value) {
+  try {
+    const url = new URL(value);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+  } catch {
+    return "#";
+  }
+}
 
 function sourceLink(source) {
-  return `<a href="${source.url}" target="_blank" rel="noreferrer">${source.name}</a>`;
+  return `<a href="${safeUrl(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.name)}</a>`;
+}
+
+function plotLayout(overrides = {}) {
+  return {
+    autosize: true,
+    paper_bgcolor: COLORS.white,
+    plot_bgcolor: COLORS.white,
+    font: {
+      family: FONT_FAMILY,
+      color: COLORS.blue900,
+      size: 11,
+    },
+    hoverlabel: {
+      bgcolor: COLORS.blue900,
+      bordercolor: COLORS.blue900,
+      font: { family: FONT_FAMILY, color: COLORS.white, size: 11 },
+    },
+    margin: { l: 42, r: 16, t: 18, b: 36 },
+    showlegend: false,
+    ...overrides,
+  };
+}
+
+function visibleMines() {
+  if (state.risk === "ALL") return state.data.disruptions;
+  if (state.risk === "RECOVERING") {
+    return state.data.disruptions.filter((mine) => mine.status.toLowerCase().includes("recover"));
+  }
+  return state.data.disruptions.filter((mine) => mine.risk === state.risk);
+}
+
+function riskColor(risk) {
+  if (risk === "HIGH") return COLORS.red500;
+  if (risk === "MEDIUM") return COLORS.red300;
+  return COLORS.green500;
+}
+
+function trendText(mine) {
+  if (mine.status.toLowerCase().includes("recover")) return "Improving";
+  if (mine.status.toLowerCase().includes("resolved")) return "Easing";
+  return "Stable";
+}
+
+function trendClass(mine) {
+  return trendText(mine).toLowerCase();
 }
 
 function renderHeader(data) {
-  $("#update-line").textContent = `Weekly update · ${data.meta.as_of} · ${data.meta.review_status}`;
-  $("#sources-checked").textContent = `Sources checked ${data.meta.sources_checked}`;
-  $("#next-refresh").textContent = `Next scheduled refresh: ${data.meta.next_refresh}`;
+  $("#update-line").textContent = `Updated ${data.meta.as_of}`;
+  $("#footer-sources").textContent = `Sources checked: ${data.meta.sources_checked}`;
+  $("#next-refresh").textContent = `Update cadence: Weekly · Next update: ${data.meta.next_refresh}`;
 }
 
 function renderKpis(kpis) {
-  $("#kpi-rail").innerHTML = kpis.map((item) => `
-    <div class="kpi"><label>${item.label}</label><strong class="${toneClass(item.tone)}">${item.value}</strong><small>${item.detail}</small></div>
-  `).join("");
+  $("#kpi-rail").innerHTML = kpis
+    .map(
+      (item) => `
+        <div class="kpi">
+          <label>${escapeHtml(item.label)}</label>
+          <strong class="tone-${item.tone === "red" || item.value === "TIGHT" ? "red" : item.tone === "green" ? "green" : "blue"}">${escapeHtml(item.value)}</strong>
+          <small>${escapeHtml(item.detail)}</small>
+        </div>`,
+    )
+    .join("");
 }
 
-function mapCoordinates(lon, lat) {
-  return { x: 450 + lon * 2.12, y: 220 - lat * 2.12 };
-}
+function renderMap() {
+  if (!window.Plotly) return;
+  const mines = visibleMines();
+  const selected = state.selectedMine;
+  const map = $("#mine-map");
+  const trace = {
+    type: "scattergeo",
+    mode: "markers",
+    lon: mines.map((mine) => mine.lon),
+    lat: mines.map((mine) => mine.lat),
+    text: mines.map((mine) => mine.name),
+    customdata: mines.map((mine) => mine.id),
+    marker: {
+      color: mines.map((mine) => riskColor(mine.risk)),
+      size: mines.map((mine) => (mine.id === selected ? 15 : 10)),
+      line: {
+        color: mines.map((mine) => (mine.id === selected ? COLORS.blue900 : COLORS.white)),
+        width: mines.map((mine) => (mine.id === selected ? 2.5 : 1.5)),
+      },
+    },
+    hovertemplate: "<b>%{text}</b><br>Select for evidence<extra></extra>",
+  };
 
-function renderMap(mines) {
-  const land = `
-    <path class="land" d="M60 120 L170 65 290 90 330 155 292 204 230 194 185 240 117 217 73 171Z"/>
-    <path class="land" d="M240 255 L310 240 338 288 320 355 286 414 262 346Z"/>
-    <path class="land" d="M407 107 L473 68 580 76 626 116 716 94 824 135 839 193 775 229 681 207 624 249 551 224 514 177 453 188 411 157Z"/>
-    <path class="land" d="M455 209 L550 202 592 264 568 365 509 388 465 307Z"/>
-    <path class="land" d="M731 307 L811 294 847 340 817 390 748 375Z"/>
-  `;
-  const visible = mines.filter((mine) => state.risk === "ALL" || mine.risk === state.risk || (state.risk === "RECOVERING" && mine.status.toLowerCase().includes("recover")));
-  const markers = visible.map((mine) => {
-    const { x, y } = mapCoordinates(mine.lon, mine.lat);
-    const color = mine.risk === "HIGH" ? "#ff514b" : mine.risk === "MEDIUM" ? "#f5a623" : "#5bbf6a";
-    const anchor = x > 690 ? "end" : "start";
-    const offset = x > 690 ? -13 : 13;
-    return `<g class="map-mine" data-mine="${mine.id}" tabindex="0" role="button" aria-label="Open ${mine.name}">
-      <circle class="mine-marker" cx="${x}" cy="${y}" r="9" fill="${color}" />
-      <text class="marker-label" x="${x + offset}" y="${y - 12}" text-anchor="${anchor}">${mine.name}</text>
-    </g>`;
-  }).join("");
-  $("#world-map").innerHTML = `<rect width="900" height="440" fill="#061725"/>${land}${markers}`;
-  $$(".map-mine").forEach((marker) => {
-    const open = () => showMine(marker.dataset.mine);
-    marker.addEventListener("click", open);
-    marker.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") open(); });
+  const layout = plotLayout({
+    margin: { l: 0, r: 0, t: 4, b: 0 },
+    dragmode: false,
+    geo: {
+      scope: "world",
+      projection: { type: "natural earth" },
+      showframe: false,
+      showcoastlines: true,
+      coastlinecolor: COLORS.blue100,
+      coastlinewidth: 0.7,
+      showcountries: true,
+      countrycolor: COLORS.blue100,
+      countrywidth: 0.55,
+      showland: true,
+      landcolor: COLORS.white,
+      showocean: true,
+      oceancolor: COLORS.white,
+      bgcolor: COLORS.white,
+      lataxis: { range: [-55, 78] },
+      lonaxis: { range: [-170, 180] },
+    },
+  });
+
+  window.Plotly.react(map, [trace], layout, PLOT_CONFIG);
+  if (typeof map.removeAllListeners === "function") map.removeAllListeners("plotly_click");
+  map.on("plotly_click", (event) => {
+    const mineId = event.points?.[0]?.customdata;
+    if (mineId) showMine(mineId);
   });
 }
 
-function renderMineList(mines) {
-  const visible = mines.filter((mine) => state.risk === "ALL" || mine.risk === state.risk || (state.risk === "RECOVERING" && mine.status.toLowerCase().includes("recover")));
-  $("#mine-list").innerHTML = visible.map((mine) => `
-    <button class="mine-row ${state.selectedMine === mine.id ? "selected" : ""}" data-mine="${mine.id}">
-      <b>${String(mine.rank).padStart(2, "0")}</b>
-      <span><b>${mine.name}</b><small>${mine.country} · ${mine.status}</small></span>
-      <span class="risk ${riskClass(mine.risk)}">${mine.risk}</span>
-      <span class="mine-issue">${mine.issue}<small>${mine.operator}</small></span>
-      <span class="trend">${mine.trend}</span>
-    </button>`).join("");
-  $$(".mine-row").forEach((row) => row.addEventListener("click", () => showMine(row.dataset.mine)));
+function renderMineTable() {
+  const mines = visibleMines();
+  $("#mine-table-body").innerHTML = mines
+    .map(
+      (mine) => `
+        <tr data-mine="${escapeHtml(mine.id)}" class="${mine.id === state.selectedMine ? "selected" : ""}">
+          <td>${String(mine.rank).padStart(2, "0")}</td>
+          <td><button class="mine-button" type="button" data-mine="${escapeHtml(mine.id)}">${escapeHtml(mine.name)}</button></td>
+          <td>${escapeHtml(mine.country)}</td>
+          <td>${escapeHtml(mine.status)}</td>
+          <td><span class="risk-label ${mine.risk.toLowerCase()}">${escapeHtml(mine.risk)}</span></td>
+          <td><span class="trend-label ${trendClass(mine)}">${trendText(mine)}</span></td>
+        </tr>`,
+    )
+    .join("");
+
+  $$(".mine-table tbody tr").forEach((row) => {
+    row.addEventListener("click", () => showMine(row.dataset.mine));
+  });
 }
 
 function showMine(id) {
-  state.selectedMine = id;
   const mine = state.data.disruptions.find((item) => item.id === id);
   if (!mine) return;
-  renderMineList(state.data.disruptions);
+  state.selectedMine = id;
+  renderMineTable();
+  renderMap();
+
   const drawer = $("#mine-detail");
-  drawer.innerHTML = `<h3>${mine.name} · ${mine.country}</h3>
-    <div><label>Evidence</label><p>${mine.evidence}</p></div>
-    <div><label>Quantified signal</label><p>${mine.signal}</p></div>
-    <div><label>Next checkpoint</label><p>${mine.next_checkpoint}<br>${sourceLink(mine.source)} · ${mine.source.published}</p></div>`;
-  drawer.classList.add("open");
-  drawer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  drawer.innerHTML = `
+    <div>
+      <label>Selected operation</label>
+      <h3>${escapeHtml(mine.name)}</h3>
+      <p>${escapeHtml(mine.country)} · ${escapeHtml(mine.status)}</p>
+    </div>
+    <div>
+      <label>Evidence</label>
+      <p>${escapeHtml(mine.evidence)}</p>
+    </div>
+    <div>
+      <label>Next checkpoint</label>
+      <p>${escapeHtml(mine.next_checkpoint)}</p>
+      <p>${sourceLink(mine.source)} · ${escapeHtml(mine.source.published)}</p>
+    </div>`;
+  drawer.hidden = false;
+}
+
+function tightnessTone(metric) {
+  const label = metric.label.toLowerCase();
+  if (label.includes("gap")) return { line: COLORS.red500, fill: COLORS.red050 };
+  if (label.includes("balance")) return { line: COLORS.green500, fill: COLORS.green050 };
+  return { line: COLORS.blue500, fill: COLORS.blue050 };
 }
 
 function renderTightness(data) {
-  $("#tightness-grid").innerHTML = data.indicators.map((metric) => `
-    <div class="metric">
-      <label>${metric.label}</label><strong>${metric.value}</strong>
-      <div class="signal">${metric.signal}</div>
-      <div class="spark">${metric.spark.map((height) => `<i style="height:${height}%"></i>`).join("")}</div>
-      <div class="provenance">${sourceLink(metric.source)}<br>Published ${metric.source.published} · Tier ${metric.source.tier}</div>
-    </div>`).join("");
-  $("#tightness-assessment").innerHTML = `<b>Assessment: ${data.rating}.</b> ${data.assessment}`;
-}
+  $("#tightness-grid").innerHTML = data.indicators
+    .map(
+      (metric, index) => `
+        <article class="tightness-card">
+          <header>
+            <h3>${escapeHtml(metric.label)}</h3>
+            <strong>${escapeHtml(metric.value)}</strong>
+          </header>
+          <div id="tightness-plot-${index}" class="plot tightness-plot" aria-label="${escapeHtml(metric.label)} recent direction"></div>
+          <p>${escapeHtml(metric.signal)}</p>
+          ${sourceLink(metric.source)}
+        </article>`,
+    )
+    .join("");
 
-function chartPath(points, values, min, max, top = 55, bottom = 310) {
-  const step = 610 / (points.length - 1);
-  return values.map((value, index) => {
-    const x = 90 + step * index;
-    const y = bottom - ((value - min) / (max - min)) * (bottom - top);
-    return { x, y, value, label: points[index] };
-  });
+  if (window.Plotly) {
+    data.indicators.forEach((metric, index) => {
+      const tone = tightnessTone(metric);
+      const trace = {
+        type: "scatter",
+        mode: "lines",
+        x: metric.spark.map((_, point) => point),
+        y: metric.spark,
+        line: { color: tone.line, width: 2 },
+        fill: "tozeroy",
+        fillcolor: tone.fill,
+        hovertemplate: "Direction index: %{y}<extra></extra>",
+      };
+      const layout = plotLayout({
+        margin: { l: 2, r: 2, t: 10, b: 2 },
+        xaxis: {
+          visible: false,
+          fixedrange: true,
+        },
+        yaxis: {
+          visible: false,
+          fixedrange: true,
+          rangemode: "tozero",
+        },
+      });
+      window.Plotly.react(`tightness-plot-${index}`, [trace], layout, PLOT_CONFIG);
+    });
+  }
+
+  $("#tightness-assessment").innerHTML = `<strong>${escapeHtml(data.rating)}.</strong> ${escapeHtml(data.assessment)}`;
 }
 
 function renderOutlook() {
   const outlook = state.data.outlook;
   const scenario = outlook.scenarios[state.scenario];
-  const years = scenario.years;
-  const allValues = [...scenario.supply, ...scenario.demand];
-  const min = Math.floor(Math.min(...allValues) - .5);
-  const max = Math.ceil(Math.max(...allValues) + .5);
-  const supply = chartPath(years, scenario.supply, min, max);
-  const demand = chartPath(years, scenario.demand, min, max);
-  const path = (points) => points.map((point, index) => `${index ? "L" : "M"}${point.x},${point.y}`).join(" ");
-  const lines = [0, 1, 2, 3].map((index) => {
-    const y = 55 + index * 85;
-    const value = (max - ((max - min) / 3) * index).toFixed(1);
-    return `<line class="grid-line" x1="75" x2="720" y1="${y}" y2="${y}"/><text class="chart-label" x="20" y="${y + 4}">${value} Mt</text>`;
-  }).join("");
-  const dots = (points, klass) => points.map((point) => `<circle class="chart-dot ${klass}" cx="${point.x}" cy="${point.y}" r="6"/><text class="chart-value" x="${point.x}" y="${point.y - 14}" text-anchor="middle">${point.value}</text><text class="chart-label" x="${point.x}" y="340" text-anchor="middle">${point.label}</text>`).join("");
-  $("#outlook-chart").innerHTML = `${lines}<line class="axis" x1="75" x2="720" y1="310" y2="310"/><path class="supply-line" d="${path(supply)}"/><path class="demand-line" d="${path(demand)}"/>${dots(supply, "supply")}${dots(demand, "demand")}<text x="570" y="25" class="chart-label">Supply — green · Demand — copper</text>`;
-  $("#assumption-title").textContent = `${state.scenario[0].toUpperCase()}${state.scenario.slice(1)}-case assumptions`;
-  $("#assumptions").innerHTML = scenario.assumptions.map((item) => `<div class="assumption-row"><span>${item.label}<small>${item.detail}</small></span><strong>${item.value}</strong></div>`).join("");
-  $("#outlook-note").innerHTML = `${scenario.note} Sources: ${outlook.sources.map(sourceLink).join(" · ")}`;
+  const scenarioLabel = state.scenario[0].toUpperCase() + state.scenario.slice(1);
+  const finalGap = scenario.demand.at(-1) - scenario.supply.at(-1);
+  const gapFill = finalGap > 0 ? COLORS.red050 : COLORS.green050;
+
+  if (window.Plotly) {
+    const supplyTrace = {
+      type: "scatter",
+      mode: "lines+markers",
+      name: "Supply",
+      x: scenario.years,
+      y: scenario.supply,
+      line: { color: COLORS.blue500, width: 2.5 },
+      marker: { color: COLORS.blue500, size: 6 },
+      hovertemplate: "<b>Supply</b><br>%{x}: %{y:.1f} Mt<extra></extra>",
+    };
+    const demandTrace = {
+      type: "scatter",
+      mode: "lines+markers",
+      name: "Demand",
+      x: scenario.years,
+      y: scenario.demand,
+      line: { color: COLORS.green500, width: 2.5 },
+      marker: { color: COLORS.green500, size: 6 },
+      fill: "tonexty",
+      fillcolor: gapFill,
+      hovertemplate: "<b>Demand</b><br>%{x}: %{y:.1f} Mt<extra></extra>",
+    };
+
+    const allValues = [...scenario.supply, ...scenario.demand];
+    const layout = plotLayout({
+      margin: { l: 52, r: 18, t: 28, b: 42 },
+      showlegend: true,
+      legend: {
+        orientation: "h",
+        x: 0,
+        y: 1.12,
+        font: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 },
+      },
+      xaxis: {
+        tickmode: "array",
+        tickvals: scenario.years,
+        ticktext: scenario.years,
+        tickfont: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 },
+        gridcolor: COLORS.blue050,
+        linecolor: COLORS.blue100,
+        zeroline: false,
+        fixedrange: true,
+      },
+      yaxis: {
+        title: { text: "Million tonnes", font: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 } },
+        range: [Math.min(...allValues) - 0.3, Math.max(...allValues) + 0.3],
+        tickfont: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 },
+        gridcolor: COLORS.blue050,
+        linecolor: COLORS.blue100,
+        zeroline: false,
+        fixedrange: true,
+      },
+      hovermode: "x unified",
+      uirevision: "outlook",
+    });
+    window.Plotly.react("outlook-plot", [supplyTrace, demandTrace], layout, PLOT_CONFIG);
+  }
+
+  $("#assumption-title").textContent = `${scenarioLabel}-case assumptions`;
+  $("#assumptions").innerHTML = scenario.assumptions
+    .map(
+      (item) => `
+        <div class="assumption-row">
+          <span>${escapeHtml(item.label)}<small>${escapeHtml(item.detail)}</small></span>
+          <strong>${escapeHtml(item.value)}</strong>
+        </div>`,
+    )
+    .join("");
+  $("#outlook-note").innerHTML = `${escapeHtml(scenario.note)} Sources: ${outlook.sources.map(sourceLink).join(" · ")}`;
 }
 
 function renderDrivers(data) {
-  $("#driver-rows").innerHTML = data.items.map((driver) => `<tr>
-    <td><b>${driver.name}</b></td><td>${driver.type}</td><td>${driver.horizon}</td>
-    <td class="direction ${driver.direction.toLowerCase()}">${driver.direction}</td><td>${driver.momentum}</td>
-    <td><span class="dots">${"●".repeat(driver.evidence)}${"○".repeat(5 - driver.evidence)}</span></td>
-  </tr>`).join("");
-  $("#driver-assessment").innerHTML = `<h3>Analyst assessment</h3><label>${data.rating}</label><p>${data.assessment}</p><p>${data.sources.map(sourceLink).join(" · ")}</p>`;
+  const items = [...data.items].reverse();
+  if (window.Plotly) {
+    const trace = {
+      type: "bar",
+      orientation: "h",
+      x: items.map((item) => item.evidence),
+      y: items.map((item) => item.name),
+      text: items.map((item) => `${item.direction} · ${item.momentum}`),
+      textposition: "outside",
+      cliponaxis: false,
+      customdata: items.map((item) => [item.type, item.horizon, item.direction, item.momentum]),
+      marker: {
+        color: items.map((item) => (item.direction === "Positive" ? COLORS.green500 : COLORS.red300)),
+      },
+      hovertemplate:
+        "<b>%{y}</b><br>%{customdata[0]} · %{customdata[1]}<br>Direction: %{customdata[2]}<br>Momentum: %{customdata[3]}<br>Evidence: %{x}/5<extra></extra>",
+    };
+    const layout = plotLayout({
+      margin: { l: 155, r: 155, t: 20, b: 42 },
+      xaxis: {
+        title: { text: "Evidence strength", font: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 } },
+        range: [0, 6.4],
+        tickmode: "array",
+        tickvals: [1, 2, 3, 4, 5],
+        tickfont: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 },
+        gridcolor: COLORS.blue050,
+        linecolor: COLORS.blue100,
+        zeroline: false,
+        fixedrange: true,
+      },
+      yaxis: {
+        tickfont: { family: FONT_FAMILY, size: 11, color: COLORS.blue900 },
+        fixedrange: true,
+      },
+      bargap: 0.45,
+    });
+    window.Plotly.react("drivers-plot", [trace], layout, PLOT_CONFIG);
+  }
+
+  $("#driver-assessment").innerHTML = `
+    <strong>${escapeHtml(data.rating)}.</strong>
+    ${escapeHtml(data.assessment)}
+    Sources: ${data.sources.map(sourceLink).join(" · ")}`;
 }
 
 function renderSources(groups) {
-  $("#source-groups").innerHTML = groups.map((group) => `<div class="source-group"><h3>Tier ${group.tier} · ${group.label}</h3><div class="source-items">${group.sources.map((source) => `<div class="source-item"><a href="${source.url}" target="_blank" rel="noreferrer">${source.name}</a><span>${source.scope}</span></div>`).join("")}</div></div>`).join("");
+  $("#source-groups").innerHTML = groups
+    .map(
+      (group) => `
+        <section class="source-group">
+          <h3>Tier ${group.tier} · ${escapeHtml(group.label)}</h3>
+          ${group.sources
+            .map(
+              (source) => `
+                <div class="source-item">
+                  ${sourceLink(source)}
+                  <span>${escapeHtml(source.scope)}</span>
+                </div>`,
+            )
+            .join("")}
+        </section>`,
+    )
+    .join("");
 }
 
 function renderMethodology(methodology) {
-  $("#methodology-content").innerHTML = methodology.map((item) => `<h3>${item.title}</h3><p>${item.body}</p>`).join("");
+  $("#methodology-content").innerHTML = methodology
+    .map((item) => `<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.body)}</p>`)
+    .join("");
 }
 
 function bindInteractions() {
-  $$(".tab").forEach((tab) => tab.addEventListener("click", () => {
-    $$(".tab").forEach((item) => item.classList.toggle("active", item === tab));
-    document.getElementById(tab.dataset.target).scrollIntoView({ behavior: "smooth" });
-  }));
-  $$(".filter").forEach((button) => button.addEventListener("click", () => {
-    state.risk = button.dataset.risk;
-    $$(".filter").forEach((item) => item.classList.toggle("active", item === button));
-    renderMap(state.data.disruptions); renderMineList(state.data.disruptions);
-  }));
-  $$("[data-scenario]").forEach((button) => button.addEventListener("click", () => {
-    state.scenario = button.dataset.scenario;
-    $$("[data-scenario]").forEach((item) => item.classList.toggle("active", item === button));
-    renderOutlook();
-  }));
+  $$(".filter").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.risk = button.dataset.risk;
+      $$(".filter").forEach((item) => item.classList.toggle("active", item === button));
+      renderMineTable();
+      renderMap();
+    });
+  });
+
+  $$("[data-scenario]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.scenario = button.dataset.scenario;
+      $$("[data-scenario]").forEach((item) => item.classList.toggle("active", item === button));
+      renderOutlook();
+    });
+  });
+
   const dialog = $("#methodology-dialog");
-  $$("[data-open-methodology]").forEach((button) => button.addEventListener("click", () => dialog.showModal()));
+  $$("[data-open-methodology]").forEach((button) => {
+    button.addEventListener("click", () => dialog.showModal());
+  });
+
+  const navLinks = $$(".section-nav a");
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.forEach((item) => item.classList.toggle("active", item === link));
+    });
+  });
+
+  const sections = ["overview", "disruptions", "tightness", "outlook", "drivers"]
+    .map((id) => document.getElementById(id))
+    .filter(Boolean);
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      navLinks.forEach((link) => {
+        link.classList.toggle("active", link.getAttribute("href") === `#${visible.target.id}`);
+      });
+    },
+    { rootMargin: "-25% 0px -65% 0px", threshold: [0, 0.1, 0.5] },
+  );
+  sections.forEach((section) => observer.observe(section));
+}
+
+function showLoadError(error) {
+  const main = $("main");
+  const alert = document.createElement("section");
+  alert.className = "dashboard-section";
+  alert.setAttribute("role", "alert");
+  alert.innerHTML = `<div class="section-heading"><h2>Dashboard data unavailable</h2></div><p>${escapeHtml(error.message)}</p>`;
+  main.prepend(alert);
 }
 
 async function init() {
@@ -162,12 +515,25 @@ async function init() {
     const response = await fetch("data/current.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
     state.data = await response.json();
-    renderHeader(state.data); renderKpis(state.data.kpis); renderMap(state.data.disruptions);
-    renderMineList(state.data.disruptions); renderTightness(state.data.tightness); renderOutlook();
-    renderDrivers(state.data.drivers); renderSources(state.data.source_register); renderMethodology(state.data.methodology);
+
+    renderHeader(state.data);
+    renderKpis(state.data.kpis);
+    renderMineTable();
+    renderTightness(state.data.tightness);
+    renderOutlook();
+    renderDrivers(state.data.drivers);
+    renderSources(state.data.source_register);
+    renderMethodology(state.data.methodology);
     bindInteractions();
+
+    if (!window.Plotly) {
+      document.body.classList.add("plotly-not-ready");
+      console.error("Plotly failed to load; data tables remain available.");
+      return;
+    }
+    renderMap();
   } catch (error) {
-    document.body.innerHTML = `<main><section class="dashboard-section"><div class="section-heading"><div><h2>Dashboard data unavailable</h2><p>${error.message}</p></div></div></section></main>`;
+    showLoadError(error);
     console.error(error);
   }
 }

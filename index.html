@@ -3,93 +3,177 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Weekly copper mine disruption and market intelligence dashboard" />
-    <title>Copper Market Intelligence</title>
+    <meta
+      name="description"
+      content="TS Lombard weekly copper mine disruption and market intelligence dashboard"
+    />
+    <title>TS Lombard | Copper Market Intelligence</title>
     <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div>
-        <h1>Copper Market Intelligence</h1>
-        <p id="update-line">Loading weekly research…</p>
-      </div>
-      <div class="topbar-meta">
-        <span id="sources-checked">Sources checked —</span>
-        <button class="text-button" data-open-methodology>Methodology</button>
+    <header class="masthead">
+      <a class="brand" href="#overview" aria-label="TS Lombard dashboard home">TS LOMBARD</a>
+      <h1>Copper Market Intelligence</h1>
+      <div class="masthead-meta">
+        <span id="update-line">Loading weekly research…</span>
+        <button class="methodology-button" type="button" data-open-methodology>
+          <svg viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M5.5 2.5h6l3 3v12h-9zM11.5 2.5v3h3M7.8 9h4.4M7.8 12h4.4" />
+          </svg>
+          Methodology &amp; sources
+        </button>
       </div>
     </header>
 
-    <nav class="tabs" aria-label="Dashboard sections">
-      <button class="tab active" data-target="disruptions">Mine disruptions</button>
-      <button class="tab" data-target="tightness">Market tightness</button>
-      <button class="tab" data-target="outlook">2–3 year outlook</button>
-      <button class="tab" data-target="drivers">Demand drivers</button>
+    <nav class="section-nav" aria-label="Dashboard sections">
+      <a class="active" href="#overview">Overview</a>
+      <a href="#disruptions">Mine disruptions</a>
+      <a href="#tightness">Market tightness</a>
+      <a href="#outlook">Outlook</a>
+      <a href="#drivers">Demand drivers</a>
     </nav>
 
-    <main>
+    <main id="overview">
       <section id="kpi-rail" class="kpi-rail" aria-label="Market summary"></section>
 
       <section id="disruptions" class="dashboard-section">
         <div class="section-heading">
-          <div><h2>Mine Disruption Tracker</h2><p>Material operating events, ranked by supply relevance and persistence.</p></div>
-          <div class="filters" aria-label="Risk filters">
-            <button class="filter active" data-risk="ALL">All</button>
-            <button class="filter" data-risk="HIGH">High</button>
-            <button class="filter" data-risk="RECOVERING">Recovering</button>
+          <h2><span>1.</span> Mine Disruption Tracker</h2>
+          <div class="filter-group" aria-label="Filter disruption tracker">
+            <button class="filter active" type="button" data-risk="ALL">All</button>
+            <button class="filter" type="button" data-risk="HIGH">High</button>
+            <button class="filter" type="button" data-risk="RECOVERING">Recovering</button>
           </div>
         </div>
+
         <div class="tracker-layout">
-          <div class="map-panel">
-            <svg id="world-map" viewBox="0 0 900 440" role="img" aria-label="Schematic world map of tracked copper mines"></svg>
-            <p class="map-note">Schematic location view · select a marker or mine row for evidence.</p>
+          <div class="map-region">
+            <div
+              id="mine-map"
+              class="plot plot-map"
+              role="img"
+              aria-label="World map showing tracked copper mine disruptions"
+            ></div>
+            <div class="map-legend" aria-label="Disruption risk legend">
+              <span><i class="risk-dot high"></i>High</span>
+              <span><i class="risk-dot medium"></i>Medium</span>
+              <span><i class="risk-dot low"></i>Low</span>
+            </div>
           </div>
-          <div class="rank-panel"><div id="mine-list" class="mine-list"></div></div>
+
+          <div class="table-region" tabindex="0" aria-label="Ranked disruption table">
+            <table class="mine-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Mine</th>
+                  <th>Country</th>
+                  <th>Status</th>
+                  <th>Risk</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody id="mine-table-body"></tbody>
+            </table>
+          </div>
         </div>
-        <aside id="mine-detail" class="evidence-drawer" aria-live="polite"></aside>
+
+        <aside id="mine-detail" class="evidence-drawer" aria-live="polite" hidden></aside>
       </section>
 
       <section id="tightness" class="dashboard-section">
-        <div class="section-heading"><div><h2>Assessment of Current Tightness</h2><p>Mine, concentrate and refined-market signals kept separate.</p></div></div>
-        <div id="tightness-grid" class="metric-grid"></div>
-        <div id="tightness-assessment" class="assessment-band"></div>
+        <div class="section-heading">
+          <h2><span>2.</span> Current Market Tightness</h2>
+        </div>
+        <div id="tightness-grid" class="tightness-grid"></div>
+        <details class="analysis-disclosure">
+          <summary>View market assessment</summary>
+          <p id="tightness-assessment"></p>
+        </details>
       </section>
 
       <section id="outlook" class="dashboard-section">
         <div class="section-heading">
-          <div><h2>2–3 Year Supply / Demand Outlook</h2><p>Published forecasts plus transparent analyst scenarios.</p></div>
+          <h2><span>3.</span> 2–3 Year Supply / Demand Outlook</h2>
           <div class="scenario-tabs" aria-label="Scenario selector">
-            <button data-scenario="bear">Bear</button><button class="active" data-scenario="base">Base</button><button data-scenario="bull">Bull</button>
+            <button type="button" data-scenario="bear">Bear</button>
+            <button class="active" type="button" data-scenario="base">Base</button>
+            <button type="button" data-scenario="bull">Bull</button>
           </div>
         </div>
+
         <div class="outlook-layout">
-          <div class="chart-panel"><h3>Refined copper balance</h3><svg id="outlook-chart" viewBox="0 0 760 380" role="img" aria-label="Copper supply and demand outlook chart"></svg></div>
-          <div class="assumptions-panel"><h3 id="assumption-title">Base-case assumptions</h3><div id="assumptions"></div></div>
+          <figure class="outlook-chart">
+            <figcaption>Refined copper supply vs demand</figcaption>
+            <div
+              id="outlook-plot"
+              class="plot"
+              role="img"
+              aria-label="Refined copper supply and demand outlook"
+            ></div>
+          </figure>
+          <aside class="assumptions-panel">
+            <h3 id="assumption-title">Base-case assumptions</h3>
+            <div id="assumptions"></div>
+          </aside>
         </div>
-        <div id="outlook-note" class="source-line"></div>
+
+        <details class="analysis-disclosure">
+          <summary>Scenario methodology &amp; sources</summary>
+          <p id="outlook-note"></p>
+        </details>
       </section>
 
       <section id="drivers" class="dashboard-section">
-        <div class="section-heading"><div><h2>Strength of Cyclical & Structural Demand Drivers</h2><p>Direction, momentum and evidence strength by horizon.</p></div></div>
-        <div class="drivers-layout">
-          <div class="driver-table-wrap"><table><thead><tr><th>Driver</th><th>Type</th><th>Horizon</th><th>Direction</th><th>Momentum</th><th>Evidence</th></tr></thead><tbody id="driver-rows"></tbody></table></div>
-          <aside id="driver-assessment" class="analyst-note"></aside>
+        <div class="section-heading">
+          <h2><span>4.</span> Cyclical &amp; Structural Demand Drivers</h2>
         </div>
+        <div
+          id="drivers-plot"
+          class="plot drivers-plot"
+          role="img"
+          aria-label="Evidence strength of copper demand drivers"
+        ></div>
+        <details class="analysis-disclosure">
+          <summary>View demand assessment</summary>
+          <div id="driver-assessment"></div>
+        </details>
       </section>
 
-      <section id="source-register" class="dashboard-section source-register">
-        <div class="section-heading"><div><h2>Source Register</h2><p>Primary sources are checked before broad-news discovery.</p></div><button class="text-button" data-open-methodology>View scoring method</button></div>
+      <details id="source-register" class="source-register">
+        <summary>Source register</summary>
         <div id="source-groups"></div>
-      </section>
+      </details>
     </main>
 
-    <footer><span id="next-refresh">Next scheduled refresh —</span><span>Weekly research monitor · evidence links open at source</span></footer>
+    <footer class="site-footer">
+      <span id="footer-sources">Sources checked —</span>
+      <span id="next-refresh">Update cadence: Weekly</span>
+    </footer>
 
     <dialog id="methodology-dialog">
-      <form method="dialog"><button class="dialog-close" aria-label="Close methodology">×</button></form>
-      <h2>Methodology</h2>
+      <div class="dialog-heading">
+        <div>
+          <span>TS LOMBARD</span>
+          <h2>Methodology &amp; sources</h2>
+        </div>
+        <form method="dialog">
+          <button class="dialog-close" aria-label="Close methodology dialog">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" /></svg>
+          </button>
+        </form>
+      </div>
       <div id="methodology-content"></div>
     </dialog>
+
+    <script src="https://cdn.plot.ly/plotly-3.7.0.min.js" charset="utf-8" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>
