@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-08-07T10:51:18+00:00",
+  "checks": [
+    {
+      "id": "fcx",
+      "name": "Freeport-McMoRan",
+      "tier": 1,
+      "url": "https://investors.fcx.com/rss/pressrelease.aspx",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "9a1e0ea67cec63a541ecf019041cce8b6ffbd3dd08e856c14b571a9cd7744223",
+      "changed": false,
+      "keyword_hits": [
+        "Grasberg",
+        "restart"
+      ],
+      "content_sample": "Freeport Reports Second-Quarter and Six-Month 2026 Results e6068323-d077-4f2a-a952-05eef21cf66a https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Reports-Second-Quarter-and-Six-Month-2026-Results/default.aspx Thu, 23 Jul 2026 08:00:00 -0400 Freeport Declares Quarterly Cash Dividends on Common Stock 29c33e59-b188-4f60-93b1-7324206f0f39 https://investors.fcx.com/investors/news-releases/news-release-details/2026/Fr"
+    },
+    {
+      "id": "ivanhoe",
+      "name": "Ivanhoe Mines",
+      "tier": 1,
+      "url": "https://www.ivanhoemines.com/news-stories/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "e5a3d299a36e459804c3e4b0dc6de469d93811b56edf5f36332dc84ac70fcd5a",
+      "changed": false,
+      "keyword_hits": [
+        "Kamoa",
+        "Kakula"
+      ],
+      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 06 Aug 26 TSX: IVN CA$11.39 -0.35% 06 Aug 26 OTCQX: IVPAF US$8.14 -0.25% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
+    },
+    {
+      "id": "antofagasta",
+      "name": "Antofagasta plc",
+      "tier": 1,
+      "url": "https://www.antofagasta.co.uk/investors/news/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "60bca89e566aa9844b88485d97eef836ee0e1786e5d40ed8e7aa94ba0be0d7fd",
+      "changed": false,
+      "keyword_hits": [
+        "Los Pelambres",
+        "Centinela",
+        "copper"
+      ],
+      "content_sample": "News | Antofagasta PLC Menu About Us --> Annual Report 2025 Download PDF Our Strategy and Purpose Business Model Our Approach Our Approach Values and Principles Our Approach to Risk Relationships Corporate Governance Corporate Governance Articles of Association Framework & Structure Board Composition Board Committees Risk Management and Compliance Workforce Engagement Tax Strategy Leadership Team Leadership Team Board Senior Management Our Histor"
+    },
+    {
+      "id": "first-quantum",
+      "name": "First Quantum Minerals",
+      "tier": 1,
+      "url": "https://www.first-quantum.com/news/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "f3f7941b10c83209bd6e994a4411808745388b6c31ca59bd1c30142641d2609e",
+      "changed": false,
+      "keyword_hits": [
+        "Cobre Panama",
+        "Kansanshi",
+        "Sentinel",
+        "copper"
+      ],
+      "content_sample": "About us At a glance Our purpose & values Leadership Governance Back Overview Board governance & committees Corporate governance documents & policies Our culture 2025 ESG Report What we do Back What we do First Quantum is a global copper company. What we do Our commodities Back Overview Copper Nickel Other metals Operations Back Overview Cobre Panama Kansanshi Sentinel Enterprise Ravensthorpe Guelb Moghrein Pyhäsalmi Development projects Back Ove"
+    },
+    {
+      "id": "bhp",
+      "name": "BHP",
+      "tier": 1,
+      "url": "https://www.bhp.com/news/media-centre/releases",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "811c5d75b944e3e3bd7008705d0ab4cc6b1303373d7c61b5bf3ad0219a2e9ac8",
+      "changed": false,
+      "keyword_hits": [
+        "Antamina",
+        "copper"
+      ],
+      "content_sample": "News and publications library| BHP Search --> --> 🔍 --> Search Contact us English ES | Español 中文 | Chinese --> English ES | Español 中文 | Chinese Home --> About What we do Investor center Sustainability Careers News & Publications Suppliers Contact us Why our work matters Our future Our history Our strategy Operating ethically Our businesses Board & management Corporate governance Our code Products Global locations Reports & presentations Shareho"
+    },
+    {
+      "id": "rio",
+      "name": "Rio Tinto",
+      "tier": 1,
+      "url": "https://www.riotinto.com/news/releases",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "7257d8b063ef2fd96abc65535194178fd315c53f2d278dfa827eb1f6b20deeb7",
+      "changed": false,
+      "keyword_hits": [
+        "Oyu Tolgoi",
+        "Kennecott",
+        "copper",
+        "production"
+      ],
+      "content_sample": "Releases | Global About Back to main menu About We’re on a mission to become the world’s most valued metals and mining business – for the people who invest in us, the people we work and partner with, and the communities around us Visit About About Our business Our strategy in action History Innovation Back to About Innovation R&D and technology Partnerships and investments Ventures Growth Suppliers Back to About Suppliers Working with us Supplier"
+    },
+    {
+      "id": "glencore",
+      "name": "Glencore",
+      "tier": 1,
+      "url": "https://www.glencore.com/media-and-insights/news",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "0c0f8e85d2dd5a01c1ef6013bc00dea75246fd1948c535e25ea79f55c096c7cf",
+      "changed": false,
+      "keyword_hits": [
+        "copper",
+        "Mutanda",
+        "Collahuasi"
+      ],
+      "content_sample": "News SKIP NAVIGATION Careers Publications World map Our websites Contact us Glencore Group XPS Glencore Technology Aquarius Energy Glencore in South Africa Glencore in the DRC Mutanda Mining Kamoto Copper Company Astron Energy Kazzinc Glencore Australia Bulga Coal Liddell Coal Mangoola McArthur River Mine Mt Owen Complex Ravensworth Operations Ulan Coal United Wambo Joint Venture Open Cut Wandoan Coal West Wallsend Murrin Murrin Mount Isa Mines A"
+    },
+    {
+      "id": "codelco",
+      "name": "Codelco",
+      "tier": 1,
+      "url": "https://www.codelco.com/en/prensa",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "7aa94ce71dce0edcc0def0dc00fca07a0f224f08fc33e33f7c2473cf9071a2e1",
+      "changed": false,
+      "keyword_hits": [
+        "El Teniente",
+        "copper",
+        "accident",
+        "production"
+      ],
+      "content_sample": "See more We highlight Tuesday, August 4, 2026 Codelco adopts preventive safety measure and temporarily suspends the Andes Norte project + Friday, July 31, 2026 One year after the accident at El Teniente, Codelco remembered the deceased workers and reaffirmed its commitment to safety + Wednesday, July 29, 2026 One year after the accident at El Teniente, Codelco will commemorate the six deceased workers and renew its commitment to safety + Tuesday,"
+    },
+    {
+      "id": "lundin",
+      "name": "Lundin Mining",
+      "tier": 1,
+      "url": "https://lundinmining.com/news/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "a9222eae48129ae96e7ed977b416dad0e7aac7924afe40102c02a6c4a1c2e164",
+      "changed": false,
+      "keyword_hits": [
+        "Caserones",
+        "Candelaria",
+        "copper"
+      ],
+      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $37.59 NASDAQ STOCKHOLM LUMI kr259.40 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Sustainability Our Approach to Sustainabil"
+    },
+    {
+      "id": "teck",
+      "name": "Teck",
+      "tier": 1,
+      "url": "https://www.teck.com/news/news-releases/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "1cbe6261ed58d47b53fb59469d630a9e7512be1c8f2547e4daf98403390fdd1d",
+      "changed": false,
+      "keyword_hits": [
+        "Quebrada Blanca",
+        "Highland Valley",
+        "copper"
+      ],
+      "content_sample": "Go to About / Board of Directors Governance Leadership Awards Our Purpose and Values Contact Metals that Matter We are focused on responsibly providing the metals essential for economic development and the energy transition, including copper and zinc. Read more / Operations Operations Our Operations and Projects Teck is a leading Canadian resource company committed to responsible mining and mineral development, with world-class copper and zinc op"
+    },
+    {
+      "id": "icsg",
+      "name": "International Copper Study Group",
+      "tier": 2,
+      "url": "https://icsg.org/press-releases/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "c35e4710767908932d019894aa96e1213e381a01299e3621f4783e61c0426bc9",
+      "changed": false,
+      "keyword_hits": [
+        "copper"
+      ],
+      "content_sample": "Press Releases – International Copper Study Group Skip to content Search for: Press Releases icsg 2021-09-26T10:23:20+00:00 ORGANIZATION The Study Group Member Countries Membership Procedure Committees Secretariat Recruitment ABOUT COPPER What Is Copper Long Term Availability of Copper Selected Copper Statistics Copper Recycling ACTIVITIES Statistical Environmental and Economic IAP – Industry Advisory Panel Meetings and Events PUBLICATIONS Public"
+    },
+    {
+      "id": "iea-minerals",
+      "name": "IEA Critical Minerals",
+      "tier": 2,
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "00ef402ba275ec83896119ef0175af5608891e71f32ce4a22e64da08b41df28f",
+      "changed": false,
+      "keyword_hits": [
+        "supply",
+        "demand"
+      ],
+      "content_sample": "Their indispensable role across several energy technologies as well as other industries of strategic importance such as high-tech manufacturing, AI and digital systems, and aerospace and defence, have underlined the need to enhance the resilience and diversity of their supply chains. The report provides a snapshot of recent industry developments and offers medium- and long-term projections for the supply and demand of key energy minerals, taking "
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank Commodity Markets",
+      "tier": 2,
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "04f5767542d2709e1ff355a2349c76291c5ff9ea588d91b273fca8711aed00e0",
+      "changed": false,
+      "keyword_hits": [
+        "commodity markets outlook"
+      ],
+      "content_sample": "Prices Blog Latest Commodity Prices Published Report Commodity Markets Outlook, April 2026 Energy prices are projected to surge by 24% this year to their highest level since Russia’s invasion of Ukraine in 2022, as the war in the Middle East sends a severe shock through global commodity markets, according to the World Bank Group's latest Commodity Markets Outlook. Report Press release Commodity Markets Outlook, April 2026 Study Commodity Markets:"
+    },
+    {
+      "id": "usgs",
+      "name": "USGS Copper Statistics",
+      "tier": 2,
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:202",
+      "fingerprint": "bc74bf86fbc31be6dd4708f2ef0eb52541c5fe408ca2ae30e9964813588040f0",
+      "changed": false,
+      "keyword_hits": [],
+      "content_sample": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    {
+      "id": "cochilco",
+      "name": "COCHILCO",
+      "tier": 2,
+      "url": "https://www.cochilco.cl/",
+      "checked_at": "2026-08-07T10:51:18+00:00",
+      "status": "ok:200",
+      "fingerprint": "f627065da98ff3847665d365a4b032877ef656d998f0ec783b750a375beb7090",
+      "changed": false,
+      "keyword_hits": [
+        "cobre",
+        "Chile",
+        "mercado"
+      ],
+      "content_sample": "Home - COCHILCO Home Saltar al contenido TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Recibe nuestro newsletter TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Menú Inicio QUIÉNES SOMOS Descripción General Misión Vicepresidenta Ejecutiva (s) Estructura Organizacional Direcciones Informe de Gestión Estadísticas La Rueda Diaria Resumen Precios Diarios B.M.L Boletín Mensual Electrónico Base de Datos Electrónica (BDE) Anuario de Estadísticas del Cobre y Otros"
+    }
+  ]
+}

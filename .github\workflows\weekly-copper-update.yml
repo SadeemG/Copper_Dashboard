@@ -1,0 +1,36 @@
+name: Weekly copper source update
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-copper-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Run source-first weekly collection
+        run: python automation/update_weekly.py
+      - name: Validate dashboard data
+        run: python automation/validate_data.py
+      - name: Commit weekly evidence snapshot
+        run: |
+          git config user.name "copper-dashboard-bot"
+          git config user.email "copper-dashboard-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: weekly copper intelligence refresh"
+          git push
+
