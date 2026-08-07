@@ -123,6 +123,37 @@
       }
     }
   ],
+  "reference_mines": {
+    "note": "Selected major copper operations shown for geographic context only. Grey markers do not indicate a disruption assessment and the list is not exhaustive.",
+    "items": [
+      {"name": "Escondida", "country": "Chile", "lat": -24.27, "lon": -69.07},
+      {"name": "Collahuasi", "country": "Chile", "lat": -20.99, "lon": -68.64},
+      {"name": "Chuquicamata", "country": "Chile", "lat": -22.29, "lon": -68.9},
+      {"name": "El Teniente", "country": "Chile", "lat": -34.08, "lon": -70.35},
+      {"name": "Cerro Verde", "country": "Peru", "lat": -16.54, "lon": -71.6},
+      {"name": "Las Bambas", "country": "Peru", "lat": -14.09, "lon": -72.32},
+      {"name": "Antamina", "country": "Peru", "lat": -9.54, "lon": -77.05},
+      {"name": "Quellaveco", "country": "Peru", "lat": -17.1, "lon": -70.62},
+      {"name": "Morenci", "country": "United States", "lat": 33.05, "lon": -109.36},
+      {"name": "Buenavista del Cobre", "country": "Mexico", "lat": 30.98, "lon": -110.33},
+      {"name": "Oyu Tolgoi", "country": "Mongolia", "lat": 43.01, "lon": 106.84},
+      {"name": "Tenke Fungurume", "country": "DR Congo", "lat": -10.57, "lon": 26.18},
+      {"name": "Kansanshi", "country": "Zambia", "lat": -12.1, "lon": 26.43},
+      {"name": "Sentinel", "country": "Zambia", "lat": -12.25, "lon": 25.79},
+      {"name": "Olympic Dam", "country": "Australia", "lat": -30.44, "lon": 136.88},
+      {"name": "Aktogay", "country": "Kazakhstan", "lat": 46.95, "lon": 79.98}
+    ],
+    "sources": [
+      {
+        "name": "ICSG global facility map",
+        "url": "https://icsg.org/map-mines-smelters-refineries/"
+      },
+      {
+        "name": "2025 major-mine ranking",
+        "url": "https://www.mining.com/featured-article/ranked-top-20-biggest-copper-mines-2025/"
+      }
+    ]
+  },
   "tightness": {
     "rating": "TIGHT AT THE MINE / CONCENTRATE LEVEL; BALANCED AT THE REFINED LEVEL",
     "assessment": "The cleanest reading is a two-speed market. Major mine recoveries and constrained concentrate availability keep upstream conditions tight, while slower demand growth and more secondary refined production allow ICSG to forecast a small refined surplus. A refined surplus does not invalidate mine tightness; scrap, inventories and smelter utilisation can bridge the two balances.",
@@ -342,6 +373,43 @@
   "drivers": {
     "rating": "STRUCTURAL DRIVERS STRONG; CYCLICAL IMPULSE MIXED",
     "assessment": "Grid investment, electric vehicles, renewables and data centres provide a durable multi-year demand floor. The IEA expects global electricity demand to grow 3.6% annually over 2026–30 and estimates that annual grid investment must rise roughly 50% from today's level by 2030. Near-term copper demand remains exposed to China's industrial cycle and global manufacturing, so structural strength can coexist with cyclical volatility.",
+    "end_use": [
+      {
+        "name": "Building construction",
+        "share": 26,
+        "detail": "Building wiring, plumbing, HVAC and architectural applications"
+      },
+      {
+        "name": "Consumer, cooling & electronics",
+        "share": 23,
+        "detail": "Consumer products, cooling equipment and electronic applications"
+      },
+      {
+        "name": "Power & telecom infrastructure",
+        "share": 17,
+        "detail": "Power networks, transmission, distribution and telecommunications"
+      },
+      {
+        "name": "Transport",
+        "share": 13,
+        "detail": "Road vehicles, rail and other transport equipment"
+      },
+      {
+        "name": "Industrial equipment",
+        "share": 12,
+        "detail": "Electrical and non-electrical industrial machinery"
+      },
+      {
+        "name": "Other",
+        "share": 9,
+        "detail": "Remaining end-use applications"
+      }
+    ],
+    "end_use_source": {
+      "name": "Natural Resources Canada · global copper uses 2024",
+      "url": "https://natural-resources.canada.ca/minerals-mining/mining-data-statistics-analysis/minerals-metals-facts/copper-facts",
+      "note": "Shares describe the current global demand base, not each sector's expected contribution to future growth. Source data are attributed to ICSG."
+    },
     "items": [
       {
         "name": "China industrial cycle",
@@ -483,6 +551,16 @@
           "name": "COCHILCO",
           "url": "https://www.cochilco.cl/",
           "scope": "Chile production and copper-market studies"
+        },
+        {
+          "name": "Natural Resources Canada / ICSG",
+          "url": "https://natural-resources.canada.ca/minerals-mining/mining-data-statistics-analysis/minerals-metals-facts/copper-facts",
+          "scope": "Global copper end-use shares"
+        },
+        {
+          "name": "ICSG facility map",
+          "url": "https://icsg.org/map-mines-smelters-refineries/",
+          "scope": "Global mine-location context"
         }
       ]
     },
@@ -499,6 +577,11 @@
           "name": "Reuters / AP / mining press",
           "url": "https://www.reuters.com/markets/commodities/",
           "scope": "Corroboration and events not yet disclosed by operators"
+        },
+        {
+          "name": "MINING.COM major-mine ranking",
+          "url": "https://www.mining.com/featured-article/ranked-top-20-biggest-copper-mines-2025/",
+          "scope": "Reference-operation selection only; no disruption status inferred"
         }
       ]
     }

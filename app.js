@@ -149,9 +149,25 @@ function renderKpis(kpis) {
 function renderMap() {
   if (!window.Plotly) return;
   const mines = visibleMines();
+  const referenceMines = state.data.reference_mines?.items || [];
   const selected = state.selectedMine;
   const map = $("#mine-map");
-  const trace = {
+  const referenceTrace = {
+    type: "scattergeo",
+    mode: "markers",
+    lon: referenceMines.map((mine) => mine.lon),
+    lat: referenceMines.map((mine) => mine.lat),
+    text: referenceMines.map((mine) => mine.name),
+    customdata: referenceMines.map((mine) => mine.country),
+    marker: {
+      color: "rgba(0, 37, 50, 0.28)",
+      size: 7,
+      line: { color: "rgba(0, 37, 50, 0.48)", width: 0.8 },
+    },
+    hovertemplate:
+      "<b>%{text}</b><br>%{customdata}<br>Reference operation · no active disruption assessment<extra></extra>",
+  };
+  const disruptionTrace = {
     type: "scattergeo",
     mode: "markers",
     lon: mines.map((mine) => mine.lon),
@@ -192,10 +208,11 @@ function renderMap() {
     },
   });
 
-  window.Plotly.react(map, [trace], layout, PLOT_CONFIG);
+  window.Plotly.react(map, [referenceTrace, disruptionTrace], layout, PLOT_CONFIG);
   if (typeof map.removeAllListeners === "function") map.removeAllListeners("plotly_click");
   map.on("plotly_click", (event) => {
-    const mineId = event.points?.[0]?.customdata;
+    const point = event.points?.[0];
+    const mineId = point?.curveNumber === 1 ? point.customdata : null;
     if (mineId) showMine(mineId);
   });
 }
@@ -382,30 +399,33 @@ function renderOutlook() {
 }
 
 function renderDrivers(data) {
-  const items = [...data.items].reverse();
+  const endUse = [...data.end_use].reverse();
+  const chartLabel = (name) =>
+    ({
+      "Consumer, cooling & electronics": "Consumer, cooling<br>& electronics",
+      "Power & telecom infrastructure": "Power & telecom<br>infrastructure",
+      "Building construction": "Building<br>construction",
+      "Industrial equipment": "Industrial<br>equipment",
+    })[name] || name;
   if (window.Plotly) {
     const trace = {
       type: "bar",
       orientation: "h",
-      x: items.map((item) => item.evidence),
-      y: items.map((item) => item.name),
-      text: items.map((item) => `${item.direction} · ${item.momentum}`),
+      x: endUse.map((item) => item.share),
+      y: endUse.map((item) => chartLabel(item.name)),
+      text: endUse.map((item) => `${item.share}%`),
       textposition: "outside",
       cliponaxis: false,
-      customdata: items.map((item) => [item.type, item.horizon, item.direction, item.momentum]),
-      marker: {
-        color: items.map((item) => (item.direction === "Positive" ? COLORS.green500 : COLORS.red300)),
-      },
-      hovertemplate:
-        "<b>%{y}</b><br>%{customdata[0]} · %{customdata[1]}<br>Direction: %{customdata[2]}<br>Momentum: %{customdata[3]}<br>Evidence: %{x}/5<extra></extra>",
+      customdata: endUse.map((item) => [item.name, item.detail]),
+      marker: { color: COLORS.blue500 },
+      hovertemplate: "<b>%{customdata[0]}</b><br>%{x}% of global copper use<br>%{customdata[1]}<extra></extra>",
     };
     const layout = plotLayout({
-      margin: { l: 155, r: 155, t: 20, b: 42 },
+      margin: { l: window.innerWidth < 620 ? 132 : 184, r: 42, t: 10, b: 48 },
       xaxis: {
-        title: { text: "Evidence strength", font: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 } },
-        range: [0, 6.4],
-        tickmode: "array",
-        tickvals: [1, 2, 3, 4, 5],
+        title: { text: "Share of global copper use · 2024 (%)", font: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 } },
+        range: [0, 30],
+        dtick: 5,
         tickfont: { family: FONT_FAMILY, size: 10, color: COLORS.blue700 },
         gridcolor: COLORS.blue050,
         linecolor: COLORS.blue100,
@@ -413,13 +433,31 @@ function renderDrivers(data) {
         fixedrange: true,
       },
       yaxis: {
-        tickfont: { family: FONT_FAMILY, size: 11, color: COLORS.blue900 },
+        tickfont: { family: FONT_FAMILY, size: window.innerWidth < 620 ? 9 : 10, color: COLORS.blue900 },
         fixedrange: true,
       },
-      bargap: 0.45,
+      bargap: 0.38,
     });
     window.Plotly.react("drivers-plot", [trace], layout, PLOT_CONFIG);
   }
+
+  $("#drivers-source").innerHTML = `${escapeHtml(data.end_use_source.note)} Source: ${sourceLink(data.end_use_source)}.`;
+  $("#driver-kpis").innerHTML = data.items
+    .map(
+      (item) => `
+        <div class="driver-kpi-row">
+          <div>
+            <strong>${escapeHtml(item.name)}</strong>
+            <span>${escapeHtml(item.type)} · ${escapeHtml(item.horizon)}</span>
+            <em class="driver-direction ${item.direction.toLowerCase()}">${escapeHtml(item.direction)} · ${escapeHtml(item.momentum)}</em>
+          </div>
+          <div class="evidence-kpi" aria-label="Evidence confidence ${item.evidence} out of 5">
+            <strong>${item.evidence}/5</strong>
+            <span>Evidence</span>
+          </div>
+        </div>`,
+    )
+    .join("");
 
   $("#driver-assessment").innerHTML = `
     <strong>${escapeHtml(data.rating)}.</strong>

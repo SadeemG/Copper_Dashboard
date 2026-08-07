@@ -17,7 +17,7 @@ def require(condition, message):
         errors.append(message)
 
 
-for key in ("meta", "kpis", "disruptions", "tightness", "outlook", "drivers", "source_register", "methodology"):
+for key in ("meta", "kpis", "disruptions", "reference_mines", "tightness", "outlook", "drivers", "source_register", "methodology"):
     require(key in DATA, f"missing top-level key: {key}")
 require(len(DATA.get("kpis", [])) == 4, "dashboard requires exactly four headline KPIs")
 require(len(DATA.get("disruptions", [])) > 0, "at least one disruption is required")
@@ -31,6 +31,20 @@ for mine in DATA.get("disruptions", []):
     source = mine.get("source", {})
     require(source.get("tier") in {1, 2, 3}, f"invalid source tier for {mine.get('name')}")
     require(urlparse(source.get("url", "")).scheme == "https", f"non-HTTPS source for {mine.get('name')}")
+
+reference_names = set()
+for mine in DATA.get("reference_mines", {}).get("items", []):
+    require(mine.get("name") not in reference_names, f"duplicate reference mine: {mine.get('name')}")
+    reference_names.add(mine.get("name"))
+    require(-90 <= mine.get("lat", 999) <= 90 and -180 <= mine.get("lon", 999) <= 180, f"invalid reference coordinates for {mine.get('name')}")
+
+drivers = DATA.get("drivers", {})
+end_use = drivers.get("end_use", [])
+require(len(end_use) > 0, "at least one copper end-use sector is required")
+require(sum(item.get("share", 0) for item in end_use) == 100, "copper end-use shares must sum to 100")
+require(urlparse(drivers.get("end_use_source", {}).get("url", "")).scheme == "https", "copper end-use source must use HTTPS")
+for driver in drivers.get("items", []):
+    require(driver.get("evidence") in {1, 2, 3, 4, 5}, f"evidence KPI for {driver.get('name')} must be between 1 and 5")
 
 for name, scenario in DATA.get("outlook", {}).get("scenarios", {}).items():
     lengths = {len(scenario.get(key, [])) for key in ("years", "supply", "demand")}

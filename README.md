@@ -15,6 +15,8 @@ The dashboard uses the TS Lombard house style:
 - Plotly.js for the mine map and every analytical chart.
 - The approved TS Lombard blue, red and green ramps on a true-white canvas.
 - Progressive disclosure for longer assessments, methodology and the source register.
+- Grey reference markers for selected major copper operations, separate from live disruption assessments.
+- A global end-use chart for demand origin, with research evidence retained as a separate 1–5 KPI.
 
 Plotly.js is loaded from a pinned CDN version and Roboto from Google Fonts when the static site opens. The underlying research data and HTML table remain available if a chart resource cannot load.
 

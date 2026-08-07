@@ -59,12 +59,14 @@
               id="mine-map"
               class="plot plot-map"
               role="img"
-              aria-label="World map showing tracked copper mine disruptions"
+              aria-label="World map showing tracked copper disruptions and major reference operations"
             ></div>
-            <div class="map-legend" aria-label="Disruption risk legend">
+            <div class="map-legend" aria-label="Tracked disruption and reference-operation legend">
               <span><i class="risk-dot high"></i>High</span>
               <span><i class="risk-dot medium"></i>Medium</span>
               <span><i class="risk-dot low"></i>Low</span>
+              <span><i class="risk-dot reference"></i>Reference only</span>
+              <a href="https://icsg.org/map-mines-smelters-refineries/" target="_blank" rel="noreferrer">ICSG context</a>
             </div>
           </div>
 
@@ -135,12 +137,25 @@
         <div class="section-heading">
           <h2><span>4.</span> Cyclical &amp; Structural Demand Drivers</h2>
         </div>
-        <div
-          id="drivers-plot"
-          class="plot drivers-plot"
-          role="img"
-          aria-label="Evidence strength of copper demand drivers"
-        ></div>
+        <div class="drivers-layout">
+          <figure class="demand-origin-chart">
+            <figcaption>Where current copper demand comes from</figcaption>
+            <div
+              id="drivers-plot"
+              class="plot drivers-plot"
+              role="img"
+              aria-label="Share of global copper use by end-use sector in 2024"
+            ></div>
+            <p id="drivers-source" class="drivers-source"></p>
+          </figure>
+          <section class="driver-signals" aria-labelledby="driver-signals-title">
+            <div class="driver-signals-heading">
+              <h3 id="driver-signals-title">Driver signals</h3>
+              <p>Evidence is research confidence, not demand share.</p>
+            </div>
+            <div id="driver-kpis" class="driver-kpis"></div>
+          </section>
+        </div>
         <details class="analysis-disclosure">
           <summary>View demand assessment</summary>
           <div id="driver-assessment"></div>
