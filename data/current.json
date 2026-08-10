@@ -1,9 +1,9 @@
 {
   "meta": {
-    "as_of": "7 August 2026",
-    "generated_at": "2026-08-07T10:51:18+00:00",
-    "next_refresh": "14 August 2026",
-    "sources_checked": 15,
+    "as_of": "10 August 2026",
+    "generated_at": "2026-08-10T08:05:59+00:00",
+    "next_refresh": "17 August 2026",
+    "sources_checked": 14,
     "review_status": "candidate changes awaiting analyst review",
     "schema_version": 1
   },
@@ -126,22 +126,102 @@
   "reference_mines": {
     "note": "Selected major copper operations shown for geographic context only. Grey markers do not indicate a disruption assessment and the list is not exhaustive.",
     "items": [
-      {"name": "Escondida", "country": "Chile", "lat": -24.27, "lon": -69.07},
-      {"name": "Collahuasi", "country": "Chile", "lat": -20.99, "lon": -68.64},
-      {"name": "Chuquicamata", "country": "Chile", "lat": -22.29, "lon": -68.9},
-      {"name": "El Teniente", "country": "Chile", "lat": -34.08, "lon": -70.35},
-      {"name": "Cerro Verde", "country": "Peru", "lat": -16.54, "lon": -71.6},
-      {"name": "Las Bambas", "country": "Peru", "lat": -14.09, "lon": -72.32},
-      {"name": "Antamina", "country": "Peru", "lat": -9.54, "lon": -77.05},
-      {"name": "Quellaveco", "country": "Peru", "lat": -17.1, "lon": -70.62},
-      {"name": "Morenci", "country": "United States", "lat": 33.05, "lon": -109.36},
-      {"name": "Buenavista del Cobre", "country": "Mexico", "lat": 30.98, "lon": -110.33},
-      {"name": "Oyu Tolgoi", "country": "Mongolia", "lat": 43.01, "lon": 106.84},
-      {"name": "Tenke Fungurume", "country": "DR Congo", "lat": -10.57, "lon": 26.18},
-      {"name": "Kansanshi", "country": "Zambia", "lat": -12.1, "lon": 26.43},
-      {"name": "Sentinel", "country": "Zambia", "lat": -12.25, "lon": 25.79},
-      {"name": "Olympic Dam", "country": "Australia", "lat": -30.44, "lon": 136.88},
-      {"name": "Aktogay", "country": "Kazakhstan", "lat": 46.95, "lon": 79.98}
+      {
+        "name": "Escondida",
+        "country": "Chile",
+        "lat": -24.27,
+        "lon": -69.07
+      },
+      {
+        "name": "Collahuasi",
+        "country": "Chile",
+        "lat": -20.99,
+        "lon": -68.64
+      },
+      {
+        "name": "Chuquicamata",
+        "country": "Chile",
+        "lat": -22.29,
+        "lon": -68.9
+      },
+      {
+        "name": "El Teniente",
+        "country": "Chile",
+        "lat": -34.08,
+        "lon": -70.35
+      },
+      {
+        "name": "Cerro Verde",
+        "country": "Peru",
+        "lat": -16.54,
+        "lon": -71.6
+      },
+      {
+        "name": "Las Bambas",
+        "country": "Peru",
+        "lat": -14.09,
+        "lon": -72.32
+      },
+      {
+        "name": "Antamina",
+        "country": "Peru",
+        "lat": -9.54,
+        "lon": -77.05
+      },
+      {
+        "name": "Quellaveco",
+        "country": "Peru",
+        "lat": -17.1,
+        "lon": -70.62
+      },
+      {
+        "name": "Morenci",
+        "country": "United States",
+        "lat": 33.05,
+        "lon": -109.36
+      },
+      {
+        "name": "Buenavista del Cobre",
+        "country": "Mexico",
+        "lat": 30.98,
+        "lon": -110.33
+      },
+      {
+        "name": "Oyu Tolgoi",
+        "country": "Mongolia",
+        "lat": 43.01,
+        "lon": 106.84
+      },
+      {
+        "name": "Tenke Fungurume",
+        "country": "DR Congo",
+        "lat": -10.57,
+        "lon": 26.18
+      },
+      {
+        "name": "Kansanshi",
+        "country": "Zambia",
+        "lat": -12.1,
+        "lon": 26.43
+      },
+      {
+        "name": "Sentinel",
+        "country": "Zambia",
+        "lat": -12.25,
+        "lon": 25.79
+      },
+      {
+        "name": "Olympic Dam",
+        "country": "Australia",
+        "lat": -30.44,
+        "lon": 136.88
+      },
+      {
+        "name": "Aktogay",
+        "country": "Kazakhstan",
+        "lat": 46.95,
+        "lon": 79.98
+      }
     ],
     "sources": [
       {
