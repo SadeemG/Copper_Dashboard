@@ -1,45 +1,42 @@
 {
-  "generated_at": "2026-08-10T08:05:59+00:00",
+  "generated_at": "2026-08-17T07:17:31+00:00",
   "checks": [
     {
       "id": "fcx",
       "name": "Freeport-McMoRan",
       "tier": 1,
       "url": "https://investors.fcx.com/rss/pressrelease.aspx",
-      "checked_at": "2026-08-10T08:05:59+00:00",
-      "status": "ok:200",
+      "checked_at": "2026-08-17T07:17:31+00:00",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
       "fingerprint": "9a1e0ea67cec63a541ecf019041cce8b6ffbd3dd08e856c14b571a9cd7744223",
       "changed": false,
-      "keyword_hits": [
-        "Grasberg",
-        "restart"
-      ],
-      "content_sample": "Freeport Reports Second-Quarter and Six-Month 2026 Results e6068323-d077-4f2a-a952-05eef21cf66a https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Reports-Second-Quarter-and-Six-Month-2026-Results/default.aspx Thu, 23 Jul 2026 08:00:00 -0400 Freeport Declares Quarterly Cash Dividends on Common Stock 29c33e59-b188-4f60-93b1-7324206f0f39 https://investors.fcx.com/investors/news-releases/news-release-details/2026/Fr"
+      "keyword_hits": []
     },
     {
       "id": "ivanhoe",
       "name": "Ivanhoe Mines",
       "tier": 1,
       "url": "https://www.ivanhoemines.com/news-stories/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "ea6103c259227d696e536b90f656e3201dfa7c344dd619b17dfbc5ee73cd1a7d",
+      "fingerprint": "de70e5623edbf4e0c7bba4fd8e3487d23bbd753945b4ab96177ba99244a4ac2e",
       "changed": true,
       "keyword_hits": [
         "Kamoa",
         "Kakula"
       ],
-      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 07 Aug 26 TSX: IVN CA$11.53 +1.23% 07 Aug 26 OTCQX: IVPAF US$8.28 +1.85% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
+      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 14 Aug 26 TSX: IVN CA$11.41 -1.38% 14 Aug 26 OTCQX: IVPAF US$8.23 -1.08% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
     },
     {
       "id": "antofagasta",
       "name": "Antofagasta plc",
       "tier": 1,
       "url": "https://www.antofagasta.co.uk/investors/news/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "60bca89e566aa9844b88485d97eef836ee0e1786e5d40ed8e7aa94ba0be0d7fd",
-      "changed": false,
+      "fingerprint": "c8c7fb9f63defe6706c7a89398dfccd04c637cfce37c6a5bf936ed69650d2f68",
+      "changed": true,
       "keyword_hits": [
         "Los Pelambres",
         "Centinela",
@@ -52,24 +49,24 @@
       "name": "First Quantum Minerals",
       "tier": 1,
       "url": "https://www.first-quantum.com/news/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "f3f7941b10c83209bd6e994a4411808745388b6c31ca59bd1c30142641d2609e",
-      "changed": false,
+      "fingerprint": "2459d5d2316cad2150f639d894db5613a61de85b2b182bc543c5b95f47ee20fe",
+      "changed": true,
       "keyword_hits": [
         "Cobre Panama",
         "Kansanshi",
         "Sentinel",
         "copper"
       ],
-      "content_sample": "About us At a glance Our purpose & values Leadership Governance Back Overview Board governance & committees Corporate governance documents & policies Our culture 2025 ESG Report What we do Back What we do First Quantum is a global copper company. What we do Our commodities Back Overview Copper Nickel Other metals Operations Back Overview Cobre Panama Kansanshi Sentinel Enterprise Ravensthorpe Guelb Moghrein Pyhäsalmi Development projects Back Ove"
+      "content_sample": "About us At a glance Our purpose & values Leadership Governance Back Overview Board governance & committees Corporate governance documents & policies Our culture 2025 Sustainability Report What we do Back What we do First Quantum is a global copper company. What we do Our commodities Back Overview Copper Nickel Other metals Operations Back Overview Cobre Panama Kansanshi Sentinel Enterprise Ravensthorpe Guelb Moghrein Pyhäsalmi Development projec"
     },
     {
       "id": "bhp",
       "name": "BHP",
       "tier": 1,
       "url": "https://www.bhp.com/news/media-centre/releases",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
       "fingerprint": "811c5d75b944e3e3bd7008705d0ab4cc6b1303373d7c61b5bf3ad0219a2e9ac8",
       "changed": false,
@@ -84,7 +81,7 @@
       "name": "Rio Tinto",
       "tier": 1,
       "url": "https://www.riotinto.com/news/releases",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
       "fingerprint": "7257d8b063ef2fd96abc65535194178fd315c53f2d278dfa827eb1f6b20deeb7",
       "changed": false,
@@ -101,7 +98,7 @@
       "name": "Glencore",
       "tier": 1,
       "url": "https://www.glencore.com/media-and-insights/news",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
       "fingerprint": "0c0f8e85d2dd5a01c1ef6013bc00dea75246fd1948c535e25ea79f55c096c7cf",
       "changed": false,
@@ -117,43 +114,42 @@
       "name": "Codelco",
       "tier": 1,
       "url": "https://www.codelco.com/en/prensa",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "7aa94ce71dce0edcc0def0dc00fca07a0f224f08fc33e33f7c2473cf9071a2e1",
-      "changed": false,
+      "fingerprint": "be0878207ce1469dfbe473e48744529a84f74f0e7d9ae0cf31f8ca7422c43b35",
+      "changed": true,
       "keyword_hits": [
         "El Teniente",
-        "copper",
         "accident",
         "production"
       ],
-      "content_sample": "See more We highlight Tuesday, August 4, 2026 Codelco adopts preventive safety measure and temporarily suspends the Andes Norte project + Friday, July 31, 2026 One year after the accident at El Teniente, Codelco remembered the deceased workers and reaffirmed its commitment to safety + Wednesday, July 29, 2026 One year after the accident at El Teniente, Codelco will commemorate the six deceased workers and renew its commitment to safety + Tuesday,"
+      "content_sample": "See more We highlight Friday, August 14, 2026 Codelco strengthens its executive team to face strategic and operational challenges + Thursday, August 13, 2026 Codelco marks 11 years as the most attractive company to work for in Chile and reaffirms its leadership in mining + Monday, August 10, 2026 Codelco will capitalize 100% of its annual profits for the first time + Monday, August 10, 2026 Codelco reports the resignation of its Vice President of"
     },
     {
       "id": "lundin",
       "name": "Lundin Mining",
       "tier": 1,
       "url": "https://lundinmining.com/news/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "b93feb93838f4fd7d38eb262444570fd1acc47dc6200b1a3c4fbe1089646947c",
+      "fingerprint": "5fbf213bca30e141d2ed958b4f1184bba5d78bf2fc7f9cc04b248a15f0ca4031",
       "changed": true,
       "keyword_hits": [
         "Caserones",
         "Candelaria",
         "copper"
       ],
-      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $37.66 NASDAQ STOCKHOLM LUMI kr255.00 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Sustainability Our Approach to Sustainabil"
+      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $35.32 NASDAQ STOCKHOLM LUMI kr241.20 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Sustainability Our Approach to Sustainabil"
     },
     {
       "id": "teck",
       "name": "Teck",
       "tier": 1,
       "url": "https://www.teck.com/news/news-releases/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "1cbe6261ed58d47b53fb59469d630a9e7512be1c8f2547e4daf98403390fdd1d",
-      "changed": false,
+      "fingerprint": "cc4d13a9fbc9e651ed3986969e94ce3d28b55e1f2b4e703089ffb4f9a23062b3",
+      "changed": true,
       "keyword_hits": [
         "Quebrada Blanca",
         "Highland Valley",
@@ -166,7 +162,7 @@
       "name": "International Copper Study Group",
       "tier": 2,
       "url": "https://icsg.org/press-releases/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
       "fingerprint": "c35e4710767908932d019894aa96e1213e381a01299e3621f4783e61c0426bc9",
       "changed": false,
@@ -180,7 +176,7 @@
       "name": "IEA Critical Minerals",
       "tier": 2,
       "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "00ef402ba275ec83896119ef0175af5608891e71f32ce4a22e64da08b41df28f",
@@ -192,7 +188,7 @@
       "name": "World Bank Commodity Markets",
       "tier": 2,
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
       "fingerprint": "04f5767542d2709e1ff355a2349c76291c5ff9ea588d91b273fca8711aed00e0",
       "changed": false,
@@ -206,24 +202,24 @@
       "name": "USGS Copper Statistics",
       "tier": 2,
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "c15bb076ea03719306a4fe245918f2682c2548fa40ce8037b0bc3d42380a3a1d",
+      "fingerprint": "8a0018754af4106313f06df3c74d2963aefeb9e39247bdc6eef151a2a62bd03d",
       "changed": true,
       "keyword_hits": [
         "copper",
         "production"
       ],
-      "content_sample": "Copper Statistics and Information | U.S. Board on Geographic Names The National Map USGS Library USGS Store Park Passes News News Releases Featured Stories Science Snippets Technical Announcements Media Contacts Connect Headquarters Locations Staff Profiles Social Media Careers Contact Us About About Us Survey Manual Key Officials Organization Congressional Budget Careers and Employees Diversity and Equal Opportunity Doing Business Emergency Mana"
+      "content_sample": "Copper Statistics and Information | U.S. Board on Geographic Names The National Map USGS Library USGS Store Park Passes News News Releases Featured Stories Science Snippets Technical Announcements Media Contacts Connect Headquarters Locations Staff Profiles Social Media Careers Contact Us About About Us Survey Manual Key Officials Organization Congressional Budget Careers and Employees Office of Civil Rights Doing Business Emergency Management La"
     },
     {
       "id": "cochilco",
       "name": "COCHILCO",
       "tier": 2,
       "url": "https://www.cochilco.cl/",
-      "checked_at": "2026-08-10T08:05:59+00:00",
+      "checked_at": "2026-08-17T07:17:31+00:00",
       "status": "ok:200",
-      "fingerprint": "477aa2ac028ab0002bd0418fc35683acc3a1c0c1e83f3b9eb240f5e8b4189c4c",
+      "fingerprint": "57862bf3f41a1a29abf64307aaf050c4a935a522474d709541c6e33e8f0aae4a",
       "changed": true,
       "keyword_hits": [
         "cobre",
