@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-24T07:29:56+00:00",
+  "generated_at": "2026-08-31T13:56:17+00:00",
   "checks": [
     {
       "id": "fcx",
       "name": "Freeport-McMoRan",
       "tier": 1,
       "url": "https://investors.fcx.com/rss/pressrelease.aspx",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "9a1e0ea67cec63a541ecf019041cce8b6ffbd3dd08e856c14b571a9cd7744223",
@@ -18,22 +18,22 @@
       "name": "Ivanhoe Mines",
       "tier": 1,
       "url": "https://www.ivanhoemines.com/news-stories/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
-      "fingerprint": "d2922ee68f6bf715759742e91cf48a9bf1d138d18facb5d68ab16b19a4e380d1",
+      "fingerprint": "bc559364e78c0da078cde5209ea607a00fe35ad527d156e594b5972b96ee3001",
       "changed": true,
       "keyword_hits": [
         "Kamoa",
         "Kakula"
       ],
-      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 21 Aug 26 TSX: IVN CA$12.37 +8.32% 21 Aug 26 OTCQX: IVPAF US$9.00 +8.56% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
+      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 31 Aug 26 TSX: IVN CA$12.09 -0.08% 28 Aug 26 OTCQX: IVPAF US$8.71 -3.11% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
     },
     {
       "id": "antofagasta",
       "name": "Antofagasta plc",
       "tier": 1,
       "url": "https://www.antofagasta.co.uk/investors/news/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "c8c7fb9f63defe6706c7a89398dfccd04c637cfce37c6a5bf936ed69650d2f68",
       "changed": false,
@@ -49,7 +49,7 @@
       "name": "First Quantum Minerals",
       "tier": 1,
       "url": "https://www.first-quantum.com/news/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "2459d5d2316cad2150f639d894db5613a61de85b2b182bc543c5b95f47ee20fe",
       "changed": false,
@@ -66,10 +66,10 @@
       "name": "BHP",
       "tier": 1,
       "url": "https://www.bhp.com/news/media-centre/releases",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "9a46e1add270af0f6fd7b2a4276418860bef2229ec4be22f15c74f82070e7815",
-      "changed": true,
+      "changed": false,
       "keyword_hits": [
         "Antamina",
         "copper"
@@ -81,10 +81,10 @@
       "name": "Rio Tinto",
       "tier": 1,
       "url": "https://www.riotinto.com/news/releases",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
-      "fingerprint": "7257d8b063ef2fd96abc65535194178fd315c53f2d278dfa827eb1f6b20deeb7",
-      "changed": false,
+      "fingerprint": "b88f7b3cbefa97fcc535057ad431220443b952e90e31a72eb335f0e88083b54e",
+      "changed": true,
       "keyword_hits": [
         "Oyu Tolgoi",
         "Kennecott",
@@ -98,10 +98,10 @@
       "name": "Glencore",
       "tier": 1,
       "url": "https://www.glencore.com/media-and-insights/news",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "70a6616702126ea1f116421084d98f366213f36bc6ac58127d3fb5cd7c72cd2a",
-      "changed": true,
+      "changed": false,
       "keyword_hits": [
         "copper",
         "Mutanda",
@@ -114,58 +114,55 @@
       "name": "Codelco",
       "tier": 1,
       "url": "https://www.codelco.com/en/prensa",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
-      "fingerprint": "4162a567208e84e5953d5a9b80c350fb123f3633fb932d07d515d615a9beed0d",
+      "fingerprint": "f19019b4b93336350a9b6524fb8394beb6ee97c6ba8be0d7928d3ac0bbb7ea85",
       "changed": true,
       "keyword_hits": [
         "El Teniente",
+        "copper",
         "accident",
         "production"
       ],
-      "content_sample": "See more We highlight Thursday, August 20, 2026 Codelco positions itself among the mining companies with the greatest social impact in the country + Friday, August 14, 2026 Codelco strengthens its executive team to face strategic and operational challenges + Thursday, August 13, 2026 Codelco marks 11 years as the most attractive company to work for in Chile and reaffirms its leadership in mining + Monday, August 10, 2026 Codelco will capitalize 1"
+      "content_sample": "Prensa | CODELCO - Corporación Nacional del Cobre, Chile Active transparency Español ESP 中国語 Active transparency Us Operations Projects Sustainability Innovation Investors Press Works at Codelco Active transparency Reporting channels Suppliers Access for workers Active transparency Press Works at Codelco Active transparency Reporting channels Suppliers Access for workers Home Press Press Friday, August 28, 2026 Codelco improves its financial resu"
     },
     {
       "id": "lundin",
       "name": "Lundin Mining",
       "tier": 1,
       "url": "https://lundinmining.com/news/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
-      "fingerprint": "e3d807126ce92310b690b3b10f9cd5d79421b219f9e38da0cf73eae3bb640055",
+      "fingerprint": "fe6b8f4dc6c765e46a28d130521143718fd4b294d1f97dbd361e4f37621bc5c3",
       "changed": true,
       "keyword_hits": [
         "Caserones",
         "Candelaria",
         "copper"
       ],
-      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $38.07 NASDAQ STOCKHOLM LUMI kr261.10 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Sustainability Our Approach to Sustainabil"
+      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $38.32 NASDAQ STOCKHOLM LUMI kr264.20 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Sustainability Our Approach to Sustainabil"
     },
     {
       "id": "teck",
       "name": "Teck",
       "tier": 1,
       "url": "https://www.teck.com/news/news-releases/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
-      "status": "ok:200",
+      "checked_at": "2026-08-31T13:56:17+00:00",
+      "status": "error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>",
       "fingerprint": "cc4d13a9fbc9e651ed3986969e94ce3d28b55e1f2b4e703089ffb4f9a23062b3",
       "changed": false,
-      "keyword_hits": [
-        "Quebrada Blanca",
-        "Highland Valley",
-        "copper"
-      ],
-      "content_sample": "Go to About / Board of Directors Governance Leadership Awards Our Purpose and Values Contact Metals that Matter We are focused on responsibly providing the metals essential for economic development and the energy transition, including copper and zinc. Read more / Operations Operations Our Operations and Projects Teck is a leading Canadian resource company committed to responsible mining and mineral development, with world-class copper and zinc op"
+      "keyword_hits": []
     },
     {
       "id": "icsg",
       "name": "International Copper Study Group",
       "tier": 2,
       "url": "https://icsg.org/press-releases/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "ea7e594678ef00145ed3f0e1e6707fdc196c675575a98b862ea33c53c74ba134",
-      "changed": true,
+      "changed": false,
       "keyword_hits": [
         "copper"
       ],
@@ -176,7 +173,7 @@
       "name": "IEA Critical Minerals",
       "tier": 2,
       "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "00ef402ba275ec83896119ef0175af5608891e71f32ce4a22e64da08b41df28f",
@@ -188,7 +185,7 @@
       "name": "World Bank Commodity Markets",
       "tier": 2,
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "04f5767542d2709e1ff355a2349c76291c5ff9ea588d91b273fca8711aed00e0",
       "changed": false,
@@ -202,7 +199,7 @@
       "name": "USGS Copper Statistics",
       "tier": 2,
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
       "fingerprint": "8a0018754af4106313f06df3c74d2963aefeb9e39247bdc6eef151a2a62bd03d",
       "changed": false,
@@ -217,16 +214,16 @@
       "name": "COCHILCO",
       "tier": 2,
       "url": "https://www.cochilco.cl/",
-      "checked_at": "2026-08-24T07:29:56+00:00",
+      "checked_at": "2026-08-31T13:56:17+00:00",
       "status": "ok:200",
-      "fingerprint": "dd941daafcca022425ebbafad119e1f84b402fc263f9c0c23139100b7d7229bf",
+      "fingerprint": "52c5edec95eec1ac5c970ce55fc5eef17d30cfe54a153ebfcd27375bc6e97ce9",
       "changed": true,
       "keyword_hits": [
         "cobre",
         "Chile",
         "mercado"
       ],
-      "content_sample": "Home - COCHILCO Home Saltar al contenido TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Recibe nuestro newsletter TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Menú Inicio QUIÉNES SOMOS Descripción General Misión Vicepresidenta Ejecutiva (s) Estructura Organizacional Direcciones Informe de Gestión Estadísticas La Rueda Diaria Resumen Precios Diarios B.M.L Boletín Mensual Electrónico Base de Datos Electrónica (BDE) Anuario de Estadísticas del Cobre y Otros"
+      "content_sample": "Home - COCHILCO Home Saltar al contenido SIAC TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Recibe nuestro newsletter SIAC TRÁMITES DISPONIBLES TRANSPARENCIA ACTIVA Menú Inicio QUIÉNES SOMOS Descripción General Misión Vicepresidenta Ejecutiva (s) Estructura Organizacional Direcciones Informe de Gestión Estadísticas La Rueda Diaria Resumen Precios Diarios B.M.L Boletín Mensual Electrónico Base de Datos Electrónica (BDE) Anuario de Estadísticas del Cob"
     }
   ]
 }
