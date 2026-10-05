@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:00:50+00:00",
+  "generated_at": "2026-10-05T14:46:04+00:00",
   "review_required": true,
   "curated_candidates": [
     {
@@ -11,7 +11,19 @@
         "Kamoa",
         "Kakula"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 1,
+      "status": "source-changed",
+      "title": "New content detected: BHP",
+      "url": "https://www.bhp.com/news/media-centre/releases",
+      "keyword_hits": [
+        "Antamina",
+        "copper"
+      ],
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     },
     {
@@ -25,7 +37,7 @@
         "copper",
         "production"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     },
     {
@@ -38,7 +50,7 @@
         "Mutanda",
         "Collahuasi"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     },
     {
@@ -48,10 +60,9 @@
       "url": "https://www.codelco.com/en/prensa",
       "keyword_hits": [
         "El Teniente",
-        "copper",
-        "production"
+        "copper"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     },
     {
@@ -64,18 +75,7 @@
         "Candelaria",
         "copper"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 2,
-      "status": "source-changed",
-      "title": "New content detected: International Copper Study Group",
-      "url": "https://icsg.org/press-releases/",
-      "keyword_hits": [
-        "copper"
-      ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     },
     {
@@ -88,563 +88,15 @@
         "Chile",
         "mercado"
       ],
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
+      "retrieved_at": "2026-10-05T14:46:04+00:00",
       "reviewed": false
     }
   ],
-  "wide_web_candidates": [
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Októberi angyalüzenet",
-      "url": "https://hir.ma/horoszkop-2/havi-horoszkop/oktoberi-angyaluzenet/838828",
-      "domain": "hir.ma",
-      "published": "20260928T131500Z",
-      "language": "Hungarian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "对话 Robopoet 孙兆治 ： 全行业销量最高的 AI 陪伴玩具 ， Fuzozo 是如何 「 养成 」 的 ？ ",
-      "url": "https://www.163.com/dy/article/L7UL99HN05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "央行等八部门 ， 联合印发 ！ ",
-      "url": "https://www.stcn.com/article/detail/4201455.html",
-      "domain": "stcn.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "江苏常熟 ： 制造大市  加速奔向  AI新城  ",
-      "url": "https://baijiahao.baidu.com/s?id=1877578797716427113",
-      "domain": "baijiahao.baidu.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "5金2银 ！ 对话上海教育系统世赛选手 ： AI时代 ， 为什么我们依然珍视  手搓  技能 ？ ",
-      "url": "https://newsghexport.shobserver.cn/html/baijiahao/2026/09/28/4065639.html",
-      "domain": "newsghexport.shobserver.cn",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "E - Zigarette belohnt Nutzer mit Krypto fürs Dampfen – Forscher warnen vor neuer Suchtfalle durch Smart Vapes",
-      "url": "http://www.op-online.de/welt/zigarette-belohnt-nutzer-mit-krypto-fuers-dampfen-forscher-warnen-vor-neuer-suchtfalle-durch-smart-vapes-zr-94513544.html",
-      "domain": "op-online.de",
-      "published": "20260928T131500Z",
-      "language": "German",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "САД развијају нову ракету за одвраћање Русије и Кине",
-      "url": "https://www.politika.rs/scc/clanak/789076/sad-razvijaju-novu-raketu-za-odvracanje-rusije-i-kine",
-      "domain": "politika.rs",
-      "published": "20260928T131500Z",
-      "language": "Serbian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "В Болгарии варили пиво ещё 6500 лет назад учёные нашли доказательства",
-      "url": "https://science.focus.ua/nauka/769249-v-bolgarii-varili-pivo-eshche-6500-let-nazad-uchenye-nashli-dokazatelstva",
-      "domain": "science.focus.ua",
-      "published": "20260928T131500Z",
-      "language": "Russian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Güney Kore Türkiyenin kapısını çaldı ! Peş peşe kazaların ardından Türk motoruna talip oldular",
-      "url": "https://www.turkiyegazetesi.com.tr/dunya/guney-koreden-turkiyenin-kapisini-caldi-pes-pese-kazalarin-ardindan-turk-motoruna-tal-1819167",
-      "domain": "turkiyegazetesi.com.tr",
-      "published": "20260928T131500Z",
-      "language": "Turkish",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "70年 ！ 从千亿到万亿 ， 成都电子信息产业背后的  成电力量  ",
-      "url": "https://baijiahao.baidu.com/s?id=1877579679712025693",
-      "domain": "baijiahao.baidu.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Xi - Trump meet : US wooing China means it abandoning India ? Point Blank decodes Delhi strategy",
-      "url": "https://www.hindustantimes.com/india-news/india-strategic-autonomy-in-a-fractured-world-order-foreign-policy-us-china-trump-xi-meeting-un-iran-west-asia-101790597765320.html",
-      "domain": "hindustantimes.com",
-      "published": "20260928T131500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Agent 真正的护城河 ， 正在从工具转向记忆资产",
-      "url": "https://www.163.com/dy/article/L7UL9H7P05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Eintracht - Sechser Onyedika : Schon wichtig , aber noch nicht in Topform",
-      "url": "http://www.fnp.de/eintracht-frankfurt/eintracht-sechser-onyedika-schon-wichtig-aber-noch-nicht-in-topform-94514207.html",
-      "domain": "fnp.de",
-      "published": "20260928T131500Z",
-      "language": "German",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "独家对话 Looki 创始人孙洋 ： 摸着自己过河",
-      "url": "https://www.163.com/dy/article/L7UL9BSR05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "E - Zigarette belohnt Nutzer mit Krypto fürs Dampfen – Forscher warnen vor neuer Suchtfalle durch Smart Vapes",
-      "url": "http://www.fnp.de/welt/zigarette-belohnt-nutzer-mit-krypto-fuers-dampfen-forscher-warnen-vor-neuer-suchtfalle-durch-smart-vapes-zr-94513544.html",
-      "domain": "fnp.de",
-      "published": "20260928T131500Z",
-      "language": "German",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "E - Zigarette belohnt Nutzer mit Krypto fürs Dampfen – Forscher warnen vor neuer Suchtfalle durch Smart Vapes",
-      "url": "https://www.az-online.de/welt/zigarette-belohnt-nutzer-mit-krypto-fuers-dampfen-forscher-warnen-vor-neuer-suchtfalle-durch-smart-vapes-zr-94513544.html",
-      "domain": "az-online.de",
-      "published": "20260928T131500Z",
-      "language": "German",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Cluedo 50p launches with online £2 , 000 gold coin prize",
-      "url": "https://www.ledburyreporter.co.uk/news/26586957.cluedo-50p-launches-online-2-000-gold-coin-prize/",
-      "domain": "ledburyreporter.co.uk",
-      "published": "20260928T131500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "配电室不用人跑了 ？ 机器人  持证上岗 ， 200多座站点已启用  硅基值守  ",
-      "url": "https://baijiahao.baidu.com/s?id=1877570274309317890",
-      "domain": "baijiahao.baidu.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "WFI haystack fire claims run at more than double average ahead of fire season",
-      "url": "https://www.insurancebusinessmag.com/au/news/catastrophe/wfi-haystack-fire-claims-run-at-more-than-double-average-ahead-of-fire-season-591373.aspx",
-      "domain": "insurancebusinessmag.com",
-      "published": "20260928T131500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "From Fiscal Milestone to Living Conditions : Will Liberia US$1B Revenue Reach Its People ? ",
-      "url": "https://gnnliberia.com/from-fiscal-milestone-to-living-conditions-will-liberias-us1b-revenue-reach-its-people/",
-      "domain": "gnnliberia.com",
-      "published": "20260928T131500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Headwall Theatre Company presents : A Thousand Natural Shocks by Jacob Marx Rice",
-      "url": "https://events.qns.com/event/headwall-theatre-company-presents-a-thousand-natural-shocks-by-jacob-marx-rice/",
-      "domain": "events.qns.com",
-      "published": "20260928T131500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "  بوينغ .. 8 سنوات من الأعطال والخسائر المتراكمة",
-      "url": "https://24.ae/article/968333/-%D8%A8%D9%88%D9%8A%D9%86%D8%BA-8-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%B9%D8%B7%D8%A7%D9%84-%D9%88%D8%A7%D9%84%D8%AE%D8%B3%D8%A7%D8%A6%D8%B1-%D8%A7%D9%84%D9%85%D8%AA%D8%B1%D8%A7%D9%83%D9%85%D8%A9",
-      "domain": "24.ae",
-      "published": "20260928T131500Z",
-      "language": "Arabic",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "جريدة البلاد | مجلس الوزراء يوافق على مقترح بيع السلع بنظام  التجزئة المقيدة  ",
-      "url": "https://www.albiladpress.com/news/2026/6559/bahrain/1022513.html",
-      "domain": "albiladpress.com",
-      "published": "20260928T131500Z",
-      "language": "Arabic",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "李强在全国安全生产视频会议上强调 抓实抓细安全生产各项工作 坚决防范遏制重特大事故发生",
-      "url": "https://www.stcn.com/article/detail/4201505.html",
-      "domain": "stcn.com",
-      "published": "20260928T131500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "做好数位遗产规划 别让家人被锁在账户外",
-      "url": "https://www.epochtimes.com/gb/26/9/27/n14858418.htm",
-      "domain": "epochtimes.com",
-      "published": "20260928T130000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Artificial Analysis 榜单第二 ， SkyReels - V4 宣告 AI 视频进入 「 全栈统一 」 阶段",
-      "url": "https://www.163.com/dy/article/L7UKN27O05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T130000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "  Foundations in Farming and Homesteading + Pastured Laying Hens  on BrightU : How farmers can turn rain , springs and gravity into infrastructure – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-09-28-farmers-turn-rain-springs-gravity-into-infrastructure.html",
-      "domain": "naturalnews.com",
-      "published": "20260928T124500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "所有人都在卷 Coding Agent ， 商汤说下一个能 「 交付 」 的行业是设计",
-      "url": "https://www.163.com/dy/article/L7UJCDKG05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T124500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "  汾酒香韵使馆行  走进埃塞俄比亚驻华大使馆|中埃|外交风波|埃塞俄比亚联邦民主共和国 _ 网易订阅",
-      "url": "https://www.163.com/dy/article/L7UIIU760530UO89.html",
-      "domain": "163.com",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": " « Відповіді на головні питання будуть отримані не у Вашингтоні , а в Києві ». Україна у фокусі світових ЗМІ",
-      "url": "https://www.ostro.org/articles/vidpovidi-na-golovni-pytannya-budut-otrymani-ne-u-vashyngtoni-a-v-kyyevi-ukrayina-u-fokusi-svitovyh-i568805",
-      "domain": "ostro.org",
-      "published": "20260928T123000Z",
-      "language": "Ukrainian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "宇树上市 ， 王兴兴开始回答下一个问题 ： 机器人如何自主进化",
-      "url": "https://www.163.com/dy/article/L7UIQIAK05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "美美与共 ， AI无界 ！ 东方美谷携手美创静界亮相2026世界设计之都大会",
-      "url": "https://newsghexport.shobserver.cn/html/baijiahao/2026/09/28/4065584.html",
-      "domain": "newsghexport.shobserver.cn",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Blutige Auseinandersetzung auf der Wiesn : Hendlmesser wird zur Tatwaffe",
-      "url": "https://www.abendzeitung-muenchen.de/muenchen/oktoberfest/blutige-auseinandersetzung-auf-der-wiesn-hendlmesser-wird-zur-tatwaffe-art-1160634",
-      "domain": "abendzeitung-muenchen.de",
-      "published": "20260928T123000Z",
-      "language": "German",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "A la deriva en el océano Pacífico",
-      "url": "https://www.diariodepontevedra.es/blog/manuel-de-lorenzo/deriva-oceano-pacifico/202609281005421469750.html",
-      "domain": "diariodepontevedra.es",
-      "published": "20260928T123000Z",
-      "language": "Spanish",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Empty storage in Europe , closed Hormuz , gas at 100 euros – A provocative proposal from the EU",
-      "url": "https://www.bankingnews.gr/diethni/articles/901955/empty-storage-in-europe-closed-hormuz-gas-at-100-euros-a-provocative-proposal-from-the-eu",
-      "domain": "bankingnews.gr",
-      "published": "20260928T123000Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "从  等客上门  到  主动获客 ， 超市增长逻辑变了",
-      "url": "https://baijiahao.baidu.com/s?id=1877573418818540306",
-      "domain": "baijiahao.baidu.com",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Barlow Research Roundup : Defence spending ramp up benefits these REITs",
-      "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-barlows-research-roundup-defence-spending-ramp-up-benefits-these-reits/",
-      "domain": "theglobeandmail.com",
-      "published": "20260928T123000Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Nữ NSƯT đình đám có gần 10 căn nhà từ Việt Nam sang Úc",
-      "url": "https://kenh14.vn/nu-nsut-dinh-dam-co-gan-10-can-nha-tu-viet-nam-sang-uc-215250319165141551.chn",
-      "domain": "kenh14.vn",
-      "published": "20260928T123000Z",
-      "language": "Vietnamese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "CinemaItaliano . info - Tutto il nuovo cinema italiano lo trovi qui",
-      "url": "https://www.cinemaitaliano.info/news/93749/elon-musk-unveiled-nelle-sale-italiane-il.html",
-      "domain": "cinemaitaliano.info",
-      "published": "20260928T123000Z",
-      "language": "Italian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Opinion : Is William going to fulfill his solemn promise to Diana ? ",
-      "url": "https://www.dailymail.com/vertical-galleries/article-16166423/Opinion-William-going-fulfill-solemn-promise-Diana.html",
-      "domain": "dailymail.com",
-      "published": "20260928T123000Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Empty storage in Europe , closed Hormuz , gas at 100 euros – A provocative proposal from the EU",
-      "url": "https://www.bankingnews.gr/diethni/articles/901955/empty-storage-in-europe-closed-hormuz-gas-at-100-euros-a-provocative-proposal-from-the-eu%20title=",
-      "domain": "bankingnews.gr",
-      "published": "20260928T123000Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": " [ 노트북 단상 ] 삼성중공업이 쏘아올린  N % 성과급  ",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026092818180677509",
-      "domain": "busan.com",
-      "published": "20260928T123000Z",
-      "language": "Korean",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "太空  天网  加速织就",
-      "url": "https://baijiahao.baidu.com/s?id=1877533092671194420",
-      "domain": "baijiahao.baidu.com",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "对话陈炜鹏 ： Loopit 有了 1500 万件作品之后 ， 我们决定做自己的互动世界模型",
-      "url": "https://www.163.com/dy/article/L7UIQKPU05119FMA.html",
-      "domain": "163.com",
-      "published": "20260928T123000Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "President Donald Trump Has Floated the Idea of a Partial or Full Ban on Diesel Exports , but the Unintended Consequences of Such Actions Would Be Catastrophic",
-      "url": "https://www.fool.com/investing/2026/09/28/donald-trump-float-idea-partial-or-full-ban-diesel-exports-unintended-consequences-catastrophic/?source=iedfolrf0000001",
-      "domain": "fool.com",
-      "published": "20260928T123000Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "วันนี้ ( 28 ก . ย . 69 ) ปภ . รายงานน้ำท่วม 27 จังหวัดและ กทม . กระทบกว่า 5 . 7 แสนครัวเรือน",
-      "url": "https://prachatai.com/journal/2026/09/118916",
-      "domain": "prachatai.com",
-      "published": "20260928T121500Z",
-      "language": "Thai",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "NetNewsLedger - Thunder Bay Sept . 28 NewsHawks briefing : trade , Iran , mining , housing and reconciliation",
-      "url": "https://www.netnewsledger.com/2026/09/28/thunder-bay-sept-28-newshawks-briefing-trade-iran-mining-housing-and-reconciliation/",
-      "domain": "netnewsledger.com",
-      "published": "20260928T121500Z",
-      "language": "English",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "一加的绿线 ， OPPO的柜台",
-      "url": "https://www.citnews.com.cn/news/222276",
-      "domain": "citnews.com.cn",
-      "published": "20260928T121500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Трудинспекция заинтересовалась смертельным ДТП на Борском мосту",
-      "url": "http://www.vgoroden.ru/novosti/inspekciya-truda-zainteresovalas-zhutkim-dtp-na-borskom-mostu-id437850",
-      "domain": "vgoroden.ru",
-      "published": "20260928T121500Z",
-      "language": "Russian",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Vết thương do thanh tre đâm vào chân đã liền , người phụ nữ 67 tuổi bất ngờ nguy kịch vì nguyên nhân này",
-      "url": "https://giadinh.suckhoedoisong.vn/vet-thuong-do-thanh-tre-dam-vao-chan-da-lien-nguoi-phu-nu-bat-ngo-nguy-kich-vi-nguyen-nhan-nay-172260928161105453.htm",
-      "domain": "giadinh.suckhoedoisong.vn",
-      "published": "20260928T121500Z",
-      "language": "Vietnamese",
-      "retrieved_at": "2026-09-28T14:00:50+00:00",
-      "reviewed": false
-    }
-  ],
+  "wide_web_candidates": [],
   "wide_web_status": {
-    "status": "ok"
+    "source_tier": 3,
+    "status": "error",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_at": "2026-10-05T14:46:04+00:00"
   }
 }
