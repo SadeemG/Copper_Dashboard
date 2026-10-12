@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:46:04+00:00",
+  "generated_at": "2026-10-12T15:32:04+00:00",
   "review_required": true,
   "curated_candidates": [
     {
@@ -11,19 +11,7 @@
         "Kamoa",
         "Kakula"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 1,
-      "status": "source-changed",
-      "title": "New content detected: BHP",
-      "url": "https://www.bhp.com/news/media-centre/releases",
-      "keyword_hits": [
-        "Antamina",
-        "copper"
-      ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     },
     {
@@ -37,7 +25,7 @@
         "copper",
         "production"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     },
     {
@@ -50,7 +38,7 @@
         "Mutanda",
         "Collahuasi"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     },
     {
@@ -60,9 +48,9 @@
       "url": "https://www.codelco.com/en/prensa",
       "keyword_hits": [
         "El Teniente",
-        "copper"
+        "production"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     },
     {
@@ -75,7 +63,31 @@
         "Candelaria",
         "copper"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 1,
+      "status": "source-changed",
+      "title": "New content detected: Teck",
+      "url": "https://www.teck.com/news/news-releases/",
+      "keyword_hits": [
+        "Quebrada Blanca",
+        "Highland Valley",
+        "copper"
+      ],
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 2,
+      "status": "source-changed",
+      "title": "New content detected: World Bank Commodity Markets",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
+      "keyword_hits": [
+        "commodity markets outlook"
+      ],
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     },
     {
@@ -88,15 +100,563 @@
         "Chile",
         "mercado"
       ],
-      "retrieved_at": "2026-10-05T14:46:04+00:00",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
       "reviewed": false
     }
   ],
-  "wide_web_candidates": [],
+  "wide_web_candidates": [
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+      "domain": "economictimes.indiatimes.com",
+      "published": "20261010T064500Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ASCII . jp ：【 スマホアクセサリー業界 】 対応機種数 / コラボ数 / デザイン数でNo1を誇るcaseplayから フジテレビで放送中の脱力ニュースバラエティ 「 全力 ！ 脱力タイムズ 」 のスマートフォンケースが登場 ！ ",
+      "url": "https://ascii.jp/elem/000/004/441/4441742/",
+      "domain": "ascii.jp",
+      "published": "20261010T064500Z",
+      "language": "Japanese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "全球首次 ！ 杭州具身黑马比肩Figure ， 全身协同自主叠衣",
+      "url": "https://tech.ifeng.com/c/8x6UpDNnKZz",
+      "domain": "tech.ifeng.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ASCII . jp ：【 発売記念価格 ！ 楽天限定 】 Headwolf F9 8 . 8インチ 2 . 5K 90Hz 4G simフリー タブレット Android16 24+128GB 特別価格21 , 999円 レビューで特典",
+      "url": "https://ascii.jp/elem/000/004/441/4441739/",
+      "domain": "ascii.jp",
+      "published": "20261010T064500Z",
+      "language": "Japanese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "90分钟做一座  贵州桥 ， 这场纸桥赛事把贵州桥梁精神种进少年心底",
+      "url": "https://baijiahao.baidu.com/s?id=1878642442215990835",
+      "domain": "baijiahao.baidu.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "AI冒充刘欢妻子带货 ， 平台怎能坐等家人来举报 | 新京报快评",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-10/doc-iniutkcp7439728.shtml",
+      "domain": "finance.sina.com.cn",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ВС России поразили сухогруз , доставлявший военные грузы",
+      "url": "https://www.mk.ru/politics/2026/10/10/vs-rossii-porazili-sukhogruz-dostavlyavshiy-voennye-gruzy.html",
+      "domain": "mk.ru",
+      "published": "20261010T064500Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Парки аттракционов перестали зарабатывать только на билетах",
+      "url": "https://rg.ru/2026/10/10/parki-attrakcionov-perestali-zarabatyvat-tolko-na-biletah.html",
+      "domain": "rg.ru",
+      "published": "20261010T064500Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "破壁垒 、 严整治 、 固长效 黑龙江省大庆市市场监管局交叉互查筑牢肉制品安全防线",
+      "url": "https://baijiahao.baidu.com/s?id=1878642503330280643",
+      "domain": "baijiahao.baidu.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "模型还在加速 ， 世界如何跟上 ？ ",
+      "url": "https://tech.ifeng.com/c/8x6ZpSnseJR",
+      "domain": "tech.ifeng.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Firefly Wedding episode 1 recap : Can Satoko escape death after a dangerous encounter turns her life upside down ? ",
+      "url": "https://www.indiatimes.com/trending/firefly-wedding-episode-1-recap-can-satoko-escape-death-after-a-dangerous-encounter-turns-her-life-upside-down/articleshow/134847515.html",
+      "domain": "indiatimes.com",
+      "published": "20261010T064500Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "全国建成45支国家级危险化学品应急救援队伍 _ 国内国际 _ 新闻 _ ",
+      "url": "http://www.chuzhou.cn/2026/1010/990140.shtml",
+      "domain": "chuzhou.cn",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "湘江潮涌 法治兴城 写在长沙市获得地方立法权四十周年之际",
+      "url": "https://news.changsha.cn/cslb/html/111874/20261010/231262.shtml",
+      "domain": "news.changsha.cn",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "打击效仿小说情节盗掘古墓葬等 两部门发布典型案例",
+      "url": "https://baijiahao.baidu.com/s?id=1878642503120099599",
+      "domain": "baijiahao.baidu.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "烏日CNC車床設備零件加工 》 精密內牙加工首選晶禹金屬加工 - 3C評鑑資訊站 . ",
+      "url": "https://blog.udn.com:443/yyy26yy99l/192613705",
+      "domain": "blog.udn.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "北京诞生一个超级IPO",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-10/doc-iniutkci6105587.shtml",
+      "domain": "finance.sina.com.cn",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "PKW bleibt mit Reifepanne liegen – Polizei entdeckt darin vier Tonnen gestohlene Wasserzähler aus Messing",
+      "url": "https://www.focus.de/panorama/welt/pkw-bleibt-mit-reifepanne-liegen-polizei-entdeckt-darin-vier-tonnen-gestohlene-wasserzaehler-aus-messing_2fa1d1a7-822d-457b-adf4-0a68b464c3e7.html",
+      "domain": "focus.de",
+      "published": "20261010T064500Z",
+      "language": "German",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Nigeria : ANOTHER ROUND OF UNIVERSITY WORKER STRIKE",
+      "url": "http://www.afriquesenlutte.org/afrique-de-l-ouest/nigeria/article/nigeria-another-round-of",
+      "domain": "afriquesenlutte.org",
+      "published": "20261010T064500Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Смартфоны Samsung стали убыточными из - за взлета цен на оперативную память",
+      "url": "https://www.pravda.ru/news/technolgies/2423741-samsung-smartphone-production-costs/",
+      "domain": "pravda.ru",
+      "published": "20261010T064500Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ASCII . jp ：【 SmallRig 】 Amazon秋セール開催 ！ カメラアクセサリーや撮影機材が最大40 % OFF",
+      "url": "https://ascii.jp/elem/000/004/441/4441740/",
+      "domain": "ascii.jp",
+      "published": "20261010T064500Z",
+      "language": "Japanese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Преступления с историей : Как СКР раскрывает в ЛНР дела давно минувших дней",
+      "url": "https://rg.ru/2026/10/10/reg-lnr/prestupleniia-s-istoriej-kak-skr-raskryvaet-v-lnr-dela-davno-minuvshih-dnej.html",
+      "domain": "rg.ru",
+      "published": "20261010T064500Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Next . js 16 . 4",
+      "url": "https://nextjs.org/blog/next-16-4",
+      "domain": "nextjs.org",
+      "published": "20261010T064500Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "湖南临澧  6 · 16  较大爆炸事故调查报告公布 _ 绵阳新闻网",
+      "url": "http://www.myrb.net/html/2026/news/10/458672.html",
+      "domain": "myrb.net",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "投用满一个月出租率过半 ， 门头沟这里的青年公寓为何能吸引年轻人 ？ ",
+      "url": "https://www.163.com/dy/article/L8SS60O105568W0A.html",
+      "domain": "163.com",
+      "published": "20261010T064500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "A comfortable Diwali , an uncomfortable 2027 : India sugar balance sheet is running thin",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/a-comfortable-diwali-an-uncomfortable-2027-indias-sugar-balance-sheet-is-running-thin/article71565441.ece",
+      "domain": "thehindubusinessline.com",
+      "published": "20261010T064500Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ASCII . jp ： 応援購入総額4億5 , 000万円超 、 1万6 , 000人以上が支持 ！ ミラブル ( R ) ︎技術搭載のハンディ高圧洗浄機 「 MIRABLE AQUABLAST MINI 」、 ヤマダデンキ ・ 公式サイトで発売決定 ！ ",
+      "url": "https://ascii.jp/elem/000/004/441/4441741/",
+      "domain": "ascii.jp",
+      "published": "20261010T064500Z",
+      "language": "Japanese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "智能新消费丨AI探索馆里过假期 ： 孩子们在闯关中触摸前沿科技",
+      "url": "http://news.cyol.com/gb/keji/articles/2026-10/08/content_v6veg0fP2x.html",
+      "domain": "news.cyol.com",
+      "published": "20261008T053000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": " 《 國際經濟 》 傳歐盟批准俄羅斯制裁 集中在彈道飛彈供應商 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20261008002604-260410",
+      "domain": "chinatimes.com",
+      "published": "20261008T053000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Στα 3 , 82 δισ . ευρώ οι ληξιπρόθεσμες οφειλές του Δημοσίου – Πάνω από 1 δισ . οι εκκρεμείς επιστροφές φόρων",
+      "url": "https://www.news247.gr/oikonomia/sta-382-dis-oi-lixiprothesmes-ofeiles-tou-dimosiou-pano-apo-1-dis-ekkremeis-epistrofes-foron/",
+      "domain": "news247.gr",
+      "published": "20261008T053000Z",
+      "language": "Greek",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "造车新势力9月交付量进一步分化",
+      "url": "http://auto.cyol.com/gb/articles/2026-10/08/content_dqeKaaF6nl.html",
+      "domain": "auto.cyol.com",
+      "published": "20261008T053000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Aguia builds 30 , 000t phosphate stockpile in Brazil",
+      "url": "https://www.brisbanetimes.com.au/business/companies/aguia-builds-30-000t-phosphate-stockpile-in-brazil-20261008-p613z4.html",
+      "domain": "brisbanetimes.com.au",
+      "published": "20261008T053000Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Ультражесткие решения . ЦБ с пессимизмом смотрит на ключевую ставку и поблажек не обещает",
+      "url": "https://www.amic.ru/news/ultrazhestkie-resheniya-cb-s-pessimizmom-smotrit-na-klyuchevuyu-stavku-i-poblazhek-ne-obeschaet-594060",
+      "domain": "amic.ru",
+      "published": "20261008T053000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "涉冒名中科院進口軍用晶片轉賣中港 10人獲利逾3億遭起訴 | 社會",
+      "url": "https://newtalk.tw/news/view/2026-10-06/1064031",
+      "domain": "newtalk.tw",
+      "published": "20261006T083000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Uran - Geheimtipp : Bohrer läuft genau dort , wo schon Uran getroffen wurde : Startet dieser Nanocap jetzt durch ? ",
+      "url": "https://www.boersennews.de/nachrichten/partner/mediafeed/uran-geheimtipp-bohrer-laeuft-genau-dort-wo-schon-uran-getroffen-wurde-startet-dieser-nanocap-jetzt-durch/5301230/",
+      "domain": "boersennews.de",
+      "published": "20261006T083000Z",
+      "language": "German",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Zwolnienia tuż przy polskiej granicy . Pracę straci około 320 osób",
+      "url": "https://www.bankier.pl/wiadomosc/Zwolnienia-tuz-przy-polskiej-granicy-Prace-straci-okolo-320-osob-9207974.html",
+      "domain": "bankier.pl",
+      "published": "20261006T083000Z",
+      "language": "Polish",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Premier African Minerals to raise £1 . 2m for Zimbabwe project",
+      "url": "https://www.newzimbabwe.com/premier-african-minerals-to-raise-1-2m-for-zimbabwe-project/",
+      "domain": "newzimbabwe.com",
+      "published": "20261006T083000Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "總統接見名古屋亞運代表團盼選手再接再厲 允給予最有力支持 | 運動",
+      "url": "https://www.cna.com.tw/news/aspt/202610060098.aspx",
+      "domain": "cna.com.tw",
+      "published": "20261006T083000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "晶采观察丨从  打卡  到  学艺  国庆文旅消费涌现新亮点 _ 广州日报大洋网",
+      "url": "https://news.dayoo.com/china/202610/06/139997_55010131.htm",
+      "domain": "news.dayoo.com",
+      "published": "20261006T083000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Zdravotnická data Čechů nabízeli hackeři k prodeji za 30 tisíc korun",
+      "url": "https://www.novinky.cz/clanek/internet-a-pc-bezpecnost-zdravotnicka-data-cechu-nabizeli-hackeri-k-prodeji-za-30-tisic-korun-40600918",
+      "domain": "novinky.cz",
+      "published": "20261006T083000Z",
+      "language": "Czech",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Hujša nesreča : delavcu nogi potegnilo med valja stroja",
+      "url": "https://siol.net/novice/slovenija/hujsa-nesreca-delavcu-nogi-potegnilo-med-valja-stroja-703289",
+      "domain": "siol.net",
+      "published": "20261006T083000Z",
+      "language": "Slovenian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Oil Industry Braces For Years Of Market Disruption",
+      "url": "https://www.marinelink.com/news/oil-industry-braces-years-market-543478",
+      "domain": "marinelink.com",
+      "published": "20261006T083000Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ОШИБКА « ДЕЗЕРТИРА » или ПРОВЕРКА РЕАКЦИИ ? Голос Армении",
+      "url": "https://golosarmenii.am/%D0%9E%D0%A8%D0%98%D0%91%D0%9A%D0%90-%D0%94%D0%95%D0%97%D0%95%D0%A0%D0%A2%D0%98%D0%A0%D0%90-%D0%B8%D0%BB%D0%B8-%D0%9F%D0%A0%D0%9E%D0%92%D0%95%D0%A0%D0%9A%D0%90-%D0%A0%D0%95%D0%90%D0%9A%D0%A6%D0%98/",
+      "domain": "golosarmenii.am",
+      "published": "20261006T083000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Trzy lata po ataku Hamasu . Tysiące napastników zabitych , Gaza wciąż w ruinach",
+      "url": "https://www.bankier.pl/wiadomosc/Trzy-lata-po-ataku-Hamasu-Tysiace-napastnikow-zabitych-Gaza-wciaz-w-ruinach-9207860.html",
+      "domain": "bankier.pl",
+      "published": "20261006T083000Z",
+      "language": "Polish",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Semak harga lantai padi",
+      "url": "https://www.utusan.com.my/nasional/2026/10/semak-harga-lantai-padi-2/",
+      "domain": "utusan.com.my",
+      "published": "20261006T083000Z",
+      "language": "Malay",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Başkan Canpolattan gençlerin geleceğine teknoloji yatırımı",
+      "url": "https://www.yenisafak.com/gundem/baskan-canpolattan-genclerin-gelecegine-teknoloji-yatirimi-4861914",
+      "domain": "yenisafak.com",
+      "published": "20261006T083000Z",
+      "language": "Turkish",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "不er ， 咋陶哲轩也成AI减速派了 ？？ ",
+      "url": "https://www.163.com/dy/article/L8IN6PVD0511DSSR.html",
+      "domain": "163.com",
+      "published": "20261006T083000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Dieselpreis in Italien explodiert – warum Spediteure mit Streik drohen",
+      "url": "https://www.merkur.de/wirtschaft/dieselpreis-in-italien-explodiert-warum-spediteure-mit-streik-drohen-zr-94526706.html",
+      "domain": "merkur.de",
+      "published": "20261006T083000Z",
+      "language": "German",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "How Can Vitamin Deficiencies Affect Women Hormones and Energy Levels ? ",
+      "url": "https://www.wafb.com/sponsored/rejuvime-medical/how-can-vitamin-deficiencies-affect-womens-hormones-energy-levels/",
+      "domain": "wafb.com",
+      "published": "20261006T083000Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "SE . Asia data boom faces energy squeeze",
+      "url": "http://global.chinadaily.com.cn/a/202610/06/WS6ac449dfe4b06d4aa0561728.html",
+      "domain": "global.chinadaily.com.cn",
+      "published": "20261006T083000Z",
+      "language": "English",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Dieselpreis in Italien explodiert – warum Spediteure mit Streik drohen",
+      "url": "https://www.hna.de/wirtschaft/dieselpreis-in-italien-explodiert-warum-spediteure-mit-streik-drohen-zr-94526706.html",
+      "domain": "hna.de",
+      "published": "20261006T083000Z",
+      "language": "German",
+      "retrieved_at": "2026-10-12T15:32:04+00:00",
+      "reviewed": false
+    }
+  ],
   "wide_web_status": {
-    "source_tier": 3,
-    "status": "error",
-    "error": "HTTP Error 429: Too Many Requests",
-    "retrieved_at": "2026-10-05T14:46:04+00:00"
+    "status": "ok"
   }
 }
