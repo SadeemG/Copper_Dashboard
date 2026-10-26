@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T13:22:52+00:00",
+  "generated_at": "2026-10-26T13:09:18+00:00",
   "checks": [
     {
       "id": "fcx",
       "name": "Freeport-McMoRan",
       "tier": 1,
       "url": "https://investors.fcx.com/rss/pressrelease.aspx",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "9a1e0ea67cec63a541ecf019041cce8b6ffbd3dd08e856c14b571a9cd7744223",
@@ -18,25 +18,25 @@
       "name": "Ivanhoe Mines",
       "tier": 1,
       "url": "https://www.ivanhoemines.com/news-stories/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "88671202093a416f399dee1b3417092fcc8d69b91d01bbbb6232d2fbc675abd5",
+      "fingerprint": "da3b329690d75ba056ce4e0c55dcd6178d2395a84d93ebdfac52af341b1af414",
       "changed": true,
       "keyword_hits": [
         "Kamoa",
         "Kakula"
       ],
-      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 16 Oct 26 TSX: IVN CA$10.28 -3.56% 16 Oct 26 OTCQX: IVPAF US$7.27 -3.45% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presen"
+      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 23 Oct 26 TSX: IVN CA$9.16 -0.22% 23 Oct 26 OTCQX: IVPAF US$6.55 0.00% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Presenta"
     },
     {
       "id": "antofagasta",
       "name": "Antofagasta plc",
       "tier": 1,
       "url": "https://www.antofagasta.co.uk/investors/news/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
       "fingerprint": "524b33bcdd310c84aa97f1cbeab710dd37b71ee00d819a5c1211a95f7cf27a78",
-      "changed": true,
+      "changed": false,
       "keyword_hits": [
         "Los Pelambres",
         "Centinela",
@@ -49,7 +49,7 @@
       "name": "First Quantum Minerals",
       "tier": 1,
       "url": "https://www.first-quantum.com/news/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
       "fingerprint": "2459d5d2316cad2150f639d894db5613a61de85b2b182bc543c5b95f47ee20fe",
       "changed": false,
@@ -66,7 +66,7 @@
       "name": "BHP",
       "tier": 1,
       "url": "https://www.bhp.com/news/media-centre/releases",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
       "fingerprint": "bfdc6493bab5a2699133ecfee0739cb2b1cc32a0e91d1c4aa1a7b6e2d08e260c",
       "changed": false,
@@ -81,9 +81,9 @@
       "name": "Rio Tinto",
       "tier": 1,
       "url": "https://www.riotinto.com/news/releases",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "ccd20bca03d8532c8ead6cf228c80049249afadb7152d4102473133bf532b9f3",
+      "fingerprint": "22f5513fdce901f446f747ebb7f998278b5834e34ad4aeb0715a76427772c108",
       "changed": true,
       "keyword_hits": [
         "Oyu Tolgoi",
@@ -98,7 +98,7 @@
       "name": "Glencore",
       "tier": 1,
       "url": "https://www.glencore.com/media-and-insights/news",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
       "fingerprint": "74dfe8c7bf3c0864b38cf64e732d3d449822d3c37332b50e2d39575d688e522d",
       "changed": false,
@@ -114,41 +114,42 @@
       "name": "Codelco",
       "tier": 1,
       "url": "https://www.codelco.com/en/prensa",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "f6fe0ec7519411e9cc276e63c23f5867e31f573b1fb338fcaa16fea76f1ff0b1",
+      "fingerprint": "a2e80199f92189f24dba807862e008d742424f9cef779554ad6027712fddc6d5",
       "changed": true,
       "keyword_hits": [
         "El Teniente",
+        "copper",
         "production"
       ],
-      "content_sample": "Prensa | CODELCO - Corporación Nacional del Cobre, Chile Active transparency Español ESP 中国語 Active transparency Modo claro Modo oscuro About us Operations Projects Sustainability Innovation Investors Press Careers Active transparency Reporting channels Suppliers Employee access Active transparency Press Careers Active transparency Reporting channels Suppliers Employee access Home Press Press Wednesday, October 14, 2026 See more We highlight Wedn"
+      "content_sample": "Prensa | CODELCO - Corporación Nacional del Cobre, Chile Active transparency Español ESP 中国語 Active transparency Modo claro Modo oscuro About us Operations Projects Sustainability Innovation Investors Press Careers Active transparency Reporting channels Suppliers Employee access Active transparency Press Careers Active transparency Reporting channels Suppliers Employee access Home Press Press Thursday, October 22, 2026 Codelco's manager receives "
     },
     {
       "id": "lundin",
       "name": "Lundin Mining",
       "tier": 1,
       "url": "https://lundinmining.com/news/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "213aaf34b4d7739e94ad708632b62db355078b3e135ed2a0fe90252c490ae1c5",
+      "fingerprint": "e4b1c4bafc36f955a812fc3000733190453a8857180f9609920d313f9d6d833e",
       "changed": true,
       "keyword_hits": [
         "Caserones",
         "Candelaria",
         "copper"
       ],
-      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $33.33 NASDAQ STOCKHOLM LUMI kr232.50 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Guidance Sustainability Our Approach to Su"
+      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $29.50 NASDAQ STOCKHOLM LUMI kr216.50 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Guidance Sustainability Our Approach to Su"
     },
     {
       "id": "teck",
       "name": "Teck",
       "tier": 1,
       "url": "https://www.teck.com/news/news-releases/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "677496b3ee1c97c76e4557904297742e17aeb8b7793b6ad072a8ee5bab65ffbb",
-      "changed": false,
+      "fingerprint": "16d533a20a1ff670e5d17be6fcab9f9c4350d1d7e055d768788ff4b1bb8b85b4",
+      "changed": true,
       "keyword_hits": [
         "Quebrada Blanca",
         "Highland Valley",
@@ -161,9 +162,9 @@
       "name": "International Copper Study Group",
       "tier": 2,
       "url": "https://icsg.org/press-releases/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "72039727eb5f75aabb51c9223883778a53be0bf972599245e028b04ecfaa7429",
+      "fingerprint": "b23f396077806c72953e8fbe4e6e9a291282b3228b193cd85bff9ac55651092d",
       "changed": true,
       "keyword_hits": [
         "copper"
@@ -175,7 +176,7 @@
       "name": "IEA Critical Minerals",
       "tier": 2,
       "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "00ef402ba275ec83896119ef0175af5608891e71f32ce4a22e64da08b41df28f",
@@ -187,7 +188,7 @@
       "name": "World Bank Commodity Markets",
       "tier": 2,
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
       "fingerprint": "78d1a9a3fa2ab194cd85d985fafd7264687217899e38a0bd10d2bdc35853d403",
       "changed": false,
@@ -201,24 +202,21 @@
       "name": "USGS Copper Statistics",
       "tier": 2,
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
-      "checked_at": "2026-10-19T13:22:52+00:00",
-      "status": "ok:200",
+      "checked_at": "2026-10-26T13:09:18+00:00",
+      "status": "error",
+      "error": "The read operation timed out",
       "fingerprint": "8a0018754af4106313f06df3c74d2963aefeb9e39247bdc6eef151a2a62bd03d",
       "changed": false,
-      "keyword_hits": [
-        "copper",
-        "production"
-      ],
-      "content_sample": "Copper Statistics and Information | U.S. Board on Geographic Names The National Map USGS Library USGS Store Park Passes News News Releases Featured Stories Science Snippets Technical Announcements Media Contacts Connect Headquarters Locations Staff Profiles Social Media Careers Contact Us About About Us Survey Manual Key Officials Organization Congressional Budget Careers and Employees Office of Civil Rights Doing Business Emergency Management La"
+      "keyword_hits": []
     },
     {
       "id": "cochilco",
       "name": "COCHILCO",
       "tier": 2,
       "url": "https://www.cochilco.cl/",
-      "checked_at": "2026-10-19T13:22:52+00:00",
+      "checked_at": "2026-10-26T13:09:18+00:00",
       "status": "ok:200",
-      "fingerprint": "481ca1fa8e726a310e2650435d990846bc0a1fb1d6967f696f027ab000a7b923",
+      "fingerprint": "f3015df5f7327d4b24555124b80ab512874f0b6e353b19c22362193f41961f4d",
       "changed": true,
       "keyword_hits": [
         "cobre",

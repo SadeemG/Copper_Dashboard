@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:22:52+00:00",
+  "generated_at": "2026-10-26T13:09:18+00:00",
   "review_required": true,
   "curated_candidates": [
     {
@@ -11,20 +11,7 @@
         "Kamoa",
         "Kakula"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 1,
-      "status": "source-changed",
-      "title": "New content detected: Antofagasta plc",
-      "url": "https://www.antofagasta.co.uk/investors/news/",
-      "keyword_hits": [
-        "Los Pelambres",
-        "Centinela",
-        "copper"
-      ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     },
     {
@@ -38,7 +25,7 @@
         "copper",
         "production"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     },
     {
@@ -48,9 +35,10 @@
       "url": "https://www.codelco.com/en/prensa",
       "keyword_hits": [
         "El Teniente",
+        "copper",
         "production"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     },
     {
@@ -63,7 +51,20 @@
         "Candelaria",
         "copper"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 1,
+      "status": "source-changed",
+      "title": "New content detected: Teck",
+      "url": "https://www.teck.com/news/news-releases/",
+      "keyword_hits": [
+        "Quebrada Blanca",
+        "Highland Valley",
+        "copper"
+      ],
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     },
     {
@@ -74,7 +75,7 @@
       "keyword_hits": [
         "copper"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     },
     {
@@ -87,7 +88,7 @@
         "Chile",
         "mercado"
       ],
-      "retrieved_at": "2026-10-19T13:22:52+00:00",
+      "retrieved_at": "2026-10-26T13:09:18+00:00",
       "reviewed": false
     }
   ],
@@ -96,6 +97,6 @@
     "source_tier": 3,
     "status": "error",
     "error": "HTTP Error 429: Too Many Requests",
-    "retrieved_at": "2026-10-19T13:22:52+00:00"
+    "retrieved_at": "2026-10-26T13:09:18+00:00"
   }
 }
