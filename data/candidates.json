@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:09:18+00:00",
+  "generated_at": "2026-11-02T16:01:34+00:00",
   "review_required": true,
   "curated_candidates": [
     {
@@ -11,21 +11,7 @@
         "Kamoa",
         "Kakula"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 1,
-      "status": "source-changed",
-      "title": "New content detected: Rio Tinto",
-      "url": "https://www.riotinto.com/news/releases",
-      "keyword_hits": [
-        "Oyu Tolgoi",
-        "Kennecott",
-        "copper",
-        "production"
-      ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     },
     {
@@ -35,10 +21,9 @@
       "url": "https://www.codelco.com/en/prensa",
       "keyword_hits": [
         "El Teniente",
-        "copper",
         "production"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     },
     {
@@ -51,7 +36,7 @@
         "Candelaria",
         "copper"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     },
     {
@@ -64,18 +49,19 @@
         "Highland Valley",
         "copper"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     },
     {
       "source_tier": 2,
       "status": "source-changed",
-      "title": "New content detected: International Copper Study Group",
-      "url": "https://icsg.org/press-releases/",
+      "title": "New content detected: World Bank Commodity Markets",
+      "url": "https://www.worldbank.org/en/research/commodity-markets",
       "keyword_hits": [
-        "copper"
+        "copper",
+        "commodity markets outlook"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     },
     {
@@ -88,15 +74,255 @@
         "Chile",
         "mercado"
       ],
-      "retrieved_at": "2026-10-26T13:09:18+00:00",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
       "reviewed": false
     }
   ],
-  "wide_web_candidates": [],
+  "wide_web_candidates": [
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Man Flew to Texas for the Last Cadillac CT5 - V in the Country , Drove It 1 , 400 Miles Home and Traded His Range Rover for an Escalade the Next Weekend",
+      "url": "https://www.torquenews.com/1/he-flew-texas-last-cadillac-ct5-v-country-drove-it-1400-miles-home-and-traded-his-range-rover",
+      "domain": "torquenews.com",
+      "published": "20261027T051500Z",
+      "language": "English",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "马斯克在天上赚疯了 ， 中国独角兽杀入核心赛道 ， 卡位万亿命门",
+      "url": "https://news.pedaily.cn/202610/570898.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "iPhone Duo开裂 、 大量订单取消 ： 黄牛血亏 ， 赚差价买房的算盘碎一地",
+      "url": "https://news.pedaily.cn/202610/570890.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "百世达完成天使+轮融资 ， 定义消费级桌面3D打印新形态",
+      "url": "https://news.pedaily.cn/202610/570906.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Promete alcalde apoyo a empleado municipal electrocutado",
+      "url": "https://puentelibre.mx/local/promete-alcalde-apoyo-a-empleado-municipal-electrocutado/",
+      "domain": "puentelibre.mx",
+      "published": "20261027T051500Z",
+      "language": "Spanish",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "桃竹苗分署勇奪全國身障技能賽勇奪3金4銀3銅 4名選手入選國際展能節國手",
+      "url": "https://n.yam.com/Article/20261027220577",
+      "domain": "n.yam.com",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Khắc khoải hồn phố cổ Hội An",
+      "url": "https://baomoi.com/khac-khoai-hon-pho-co-hoi-an-c56361403.epi",
+      "domain": "baomoi.com",
+      "published": "20261027T051500Z",
+      "language": "Vietnamese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": " 《 贵州省教育发展  十五五  规划 》 发布",
+      "url": "https://www.gzstv.com/a/3344dd7b887543bc962de95dca3c13ea",
+      "domain": "gzstv.com",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Mumbai - Pune News : मुंबई - पुणे द्रुतगती मार्गावरील जोडमार्गावर 1 नोव्हेंबरपासून मालवाहू वाहनांना बंदी ; नवीन वाहतूक नियम लागू",
+      "url": "https://www.prahaar.in/2026/10/27/ban-on-goods-vehicles-on-the-connector-roads-of-the-mumbai-pune-expressway-starting-november-1-new-traffic-rules-to-be-implemented/",
+      "domain": "prahaar.in",
+      "published": "20261027T051500Z",
+      "language": "Marathi",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Роман Матвеев : Кооперация поможет развивать рыбоводство в Кыргызстане",
+      "url": "https://www.vb.kg/doc/462561_roman_matveev:_kooperaciia_pomojet_razvivat_rybovodstvo_v_kyrgyzstane.html",
+      "domain": "vb.kg",
+      "published": "20261027T051500Z",
+      "language": "Russian",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Thune Tours Local Factory With A Towering Future",
+      "url": "https://www.yankton.net/community/article_af8826f5-65da-4e7e-a0f3-9c877f741ef5.html",
+      "domain": "yankton.net",
+      "published": "20261027T051500Z",
+      "language": "English",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "全国首个 、 推动跨品牌互联互通 ， 海尔承建的国家人工智能应用中试基地 （ 家居家电方向 ） 在青岛启动",
+      "url": "https://www.163.com/dy/article/LA8E84FJ0511B8LM.html",
+      "domain": "163.com",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "刚刚 ， GPT - 6 . 1 Terra震撼发布 ， 价格狂砍至十分之一",
+      "url": "https://news.pedaily.cn/202610/570913.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "国产荧幕 ， 正在被东北叙事嘎嘎占领",
+      "url": "https://news.pedaily.cn/202610/570902.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "硅谷AI巨头的梦想和恐惧",
+      "url": "https://news.pedaily.cn/202610/570911.shtml",
+      "domain": "news.pedaily.cn",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Quên khóa chốt cabin xe tải , tài xế gây tai nạn , vợ tử vong thương tâm",
+      "url": "https://baomoi.com/quen-khoa-chot-cabin-xe-tai-tai-xe-gay-tai-nan-vo-tu-vong-thuong-tam-c56361433.epi",
+      "domain": "baomoi.com",
+      "published": "20261027T051500Z",
+      "language": "Vietnamese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "中兴通讯前三季度营收增长16 . 2 %： 连接+算力  战略打开增长新空间 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610273909479597.html",
+      "domain": "finance.eastmoney.com",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Maatalouden alasajo on vrä tapa korjata valtion taloutta",
+      "url": "https://www.maaseuduntulevaisuus.fi/paakirjoitus/db5d1d3c-c7f9-4244-b8a0-55a168d8691e",
+      "domain": "maaseuduntulevaisuus.fi",
+      "published": "20261027T051500Z",
+      "language": "Finnish",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "PGM - Metalle im Visier : Sibanye - Stillwater : Tarifabschlüsse sollen US - Platinmetallminen stabilisieren | wallstreetONLINE",
+      "url": "https://www.wallstreet-online.de/nachricht/21567383-pgm-metalle-visier-sibanye-stillwater-tarifabschluesse-us-platinmetallminen-stabilisieren",
+      "domain": "wallstreet-online.de",
+      "published": "20261027T051500Z",
+      "language": "German",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Martes electorales , o el BOE como mitin",
+      "url": "https://www.elconfidencial.com/espana/tribuna/2026-10-27/decretos-ley-campana-electoral-gobierno-1hms_4451864/",
+      "domain": "elconfidencial.com",
+      "published": "20261027T051500Z",
+      "language": "Spanish",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "云南猪价格今日猪价 （ 最新云南猪价格今日猪价 ） ",
+      "url": "https://www.mastv.cc/shbk/177.html",
+      "domain": "mastv.cc",
+      "published": "20261027T051500Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "iSpring Launches the BRO900 Seawater Desalination System to Deliver Reliable Fresh water at Sea",
+      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/plentisoft/ispring-launches-the-bro900-seawater-desalination-system-to-deliver-reliable-fresh-water-at-sea/2454607",
+      "domain": "manilatimes.net",
+      "published": "20261027T051500Z",
+      "language": "English",
+      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "reviewed": false
+    }
+  ],
   "wide_web_status": {
-    "source_tier": 3,
-    "status": "error",
-    "error": "HTTP Error 429: Too Many Requests",
-    "retrieved_at": "2026-10-26T13:09:18+00:00"
+    "status": "ok"
   }
 }
