@@ -1,39 +1,43 @@
 {
-  "generated_at": "2026-11-02T16:01:34+00:00",
+  "generated_at": "2026-11-09T16:27:21+00:00",
   "checks": [
     {
       "id": "fcx",
       "name": "Freeport-McMoRan",
       "tier": 1,
       "url": "https://investors.fcx.com/rss/pressrelease.aspx",
-      "checked_at": "2026-11-02T16:01:34+00:00",
-      "status": "error",
-      "error": "HTTP Error 403: Forbidden",
-      "fingerprint": "9a1e0ea67cec63a541ecf019041cce8b6ffbd3dd08e856c14b571a9cd7744223",
-      "changed": false,
-      "keyword_hits": []
+      "checked_at": "2026-11-09T16:27:21+00:00",
+      "status": "ok:200",
+      "fingerprint": "1844dac0d69b7adf6e9ab7328381e05d2a666c46316fee83d6d1d2d73e095ac3",
+      "changed": true,
+      "keyword_hits": [
+        "Grasberg",
+        "copper",
+        "production"
+      ],
+      "content_sample": "Copper & Molybdenum Production 85193b86-d568-47cc-80ec-55cac2257719 https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx Wed, 04 Nov 2026 08:00:00 -0500 Freeport Reports Third-Quarter and Nine-Month 2026 Results 4d404d41-6300-43d9-8160-a031b64c3193 https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Reports-Thi"
     },
     {
       "id": "ivanhoe",
       "name": "Ivanhoe Mines",
       "tier": 1,
       "url": "https://www.ivanhoemines.com/news-stories/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "915dcca9f526058abd7c64d1ce935798ac4ac3985fbc095cf6ec1bdb17728474",
+      "fingerprint": "4a8453fb673f6d74f1466d61846065bf417380b7878ceeb042583f687e78acaa",
       "changed": true,
       "keyword_hits": [
         "Kamoa",
         "Kakula"
       ],
-      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 02 Nov 26 TSX: IVN CA$9.31 +2.99% 30 Oct 26 OTCQX: IVPAF US$6.46 -3.87% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Present"
+      "content_sample": "Learn More Operations Operations Kamoa-Kakula Copper Complex Platreef Mine Kipushi Mine Western Forelands Exploration Other Exploration Close Latest Investor Presentation Download 09 Nov 26 TSX: IVN CA$8.64 +4.35% 06 Nov 26 OTCQX: IVPAF US$5.85 +0.34% Sustainability Sustainability Overview Sustainability Governance People Prosperity Planet Contact Us Careers --> Close Latest Sustainability Report Download Investors Investors News Releases Present"
     },
     {
       "id": "antofagasta",
       "name": "Antofagasta plc",
       "tier": 1,
       "url": "https://www.antofagasta.co.uk/investors/news/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
       "fingerprint": "524b33bcdd310c84aa97f1cbeab710dd37b71ee00d819a5c1211a95f7cf27a78",
       "changed": false,
@@ -49,7 +53,7 @@
       "name": "First Quantum Minerals",
       "tier": 1,
       "url": "https://www.first-quantum.com/news/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
       "fingerprint": "2459d5d2316cad2150f639d894db5613a61de85b2b182bc543c5b95f47ee20fe",
       "changed": false,
@@ -66,7 +70,7 @@
       "name": "BHP",
       "tier": 1,
       "url": "https://www.bhp.com/news/media-centre/releases",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
       "fingerprint": "bfdc6493bab5a2699133ecfee0739cb2b1cc32a0e91d1c4aa1a7b6e2d08e260c",
       "changed": false,
@@ -81,7 +85,7 @@
       "name": "Rio Tinto",
       "tier": 1,
       "url": "https://www.riotinto.com/news/releases",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
       "fingerprint": "22f5513fdce901f446f747ebb7f998278b5834e34ad4aeb0715a76427772c108",
       "changed": false,
@@ -98,10 +102,10 @@
       "name": "Glencore",
       "tier": 1,
       "url": "https://www.glencore.com/media-and-insights/news",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "74dfe8c7bf3c0864b38cf64e732d3d449822d3c37332b50e2d39575d688e522d",
-      "changed": false,
+      "fingerprint": "21cf71cf1688b6d812f5708e74974a62536c86253fd1a2ddc14c8f2c30a63ebf",
+      "changed": true,
       "keyword_hits": [
         "copper",
         "Mutanda",
@@ -114,40 +118,40 @@
       "name": "Codelco",
       "tier": 1,
       "url": "https://www.codelco.com/en/prensa",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "29985ddcdcd0c2d2db070c066e106c56066b9cc0835226fdb63f1a4995c194f5",
+      "fingerprint": "ea3a1933948f53c37e46489450debd7092596662e18a39bde26e3b3be553de85",
       "changed": true,
       "keyword_hits": [
         "El Teniente",
         "production"
       ],
-      "content_sample": "Prensa | CODELCO - Corporación Nacional del Cobre, Chile Active transparency Español ESP 中国語 Active transparency Modo claro Modo oscuro About us Operations Projects Sustainability Innovation Investors Press Careers Active transparency Reporting channels Suppliers Employee access Active transparency Press Careers Active transparency Reporting channels Suppliers Employee access Home Press Press Thursday, October 29, 2026 Codelco takes measures in r"
+      "content_sample": "Prensa | CODELCO - Corporación Nacional del Cobre, Chile Active transparency Español ESP 中国語 Active transparency Modo claro Modo oscuro About us Operations Projects Sustainability Innovation Investors Press Careers Active transparency Reporting channels Suppliers Employee access Active transparency Press Careers Active transparency Reporting channels Suppliers Employee access Home Press Press Thursday, November 5, 2026 Extraordinary Shareholders'"
     },
     {
       "id": "lundin",
       "name": "Lundin Mining",
       "tier": 1,
       "url": "https://lundinmining.com/news/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "fb798b5f9922bb51acbc61539f57261ea560b47410d91772727cba1fef508048",
+      "fingerprint": "0659bb0a3bc41b5dbcd37fce5d65ccf921bf650ef354e212c8f54acdd6b9e499",
       "changed": true,
       "keyword_hits": [
         "Caserones",
         "Candelaria",
         "copper"
       ],
-      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $30.58 NASDAQ STOCKHOLM LUMI kr214.60 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Guidance Sustainability Our Approach to Su"
+      "content_sample": "Lundin Mining | News Free cookie consent management tool by TermsFeed TSX:LUN $31.50 NASDAQ STOCKHOLM LUMI kr218.80 About History Governance Leadership Contact Our Portfolio Operations Candelaria Mining Complex Caserones Chapada Projects Vicuña District Reserves & Resources Investors Stock Information & Dividends Presentations Events Financial Reports Corporate Filings Analyst Coverage Investor Resources Guidance Sustainability Our Approach to Su"
     },
     {
       "id": "teck",
       "name": "Teck",
       "tier": 1,
       "url": "https://www.teck.com/news/news-releases/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "120f46e9b3fa0e4f225a25e7b3814be0b49f0fa91a8bd058bcd261f4f932ccf6",
+      "fingerprint": "5227c94610155fb83bce05a20950262550965cda82ff26d539ca232295a974b1",
       "changed": true,
       "keyword_hits": [
         "Quebrada Blanca",
@@ -161,7 +165,7 @@
       "name": "International Copper Study Group",
       "tier": 2,
       "url": "https://icsg.org/press-releases/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
       "fingerprint": "b23f396077806c72953e8fbe4e6e9a291282b3228b193cd85bff9ac55651092d",
       "changed": false,
@@ -175,7 +179,7 @@
       "name": "IEA Critical Minerals",
       "tier": 2,
       "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "error",
       "error": "HTTP Error 403: Forbidden",
       "fingerprint": "00ef402ba275ec83896119ef0175af5608891e71f32ce4a22e64da08b41df28f",
@@ -187,36 +191,39 @@
       "name": "World Bank Commodity Markets",
       "tier": 2,
       "url": "https://www.worldbank.org/en/research/commodity-markets",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "9e56be6d88245a87c1261c63b714bdfa6afb64427df7630b588a7e4774c4221d",
+      "fingerprint": "8eb91c0f2b4b2ca5fcc5f89c6440a4bc3920c1a87a38f07a3a46034bef391d93",
       "changed": true,
       "keyword_hits": [
         "copper",
         "commodity markets outlook"
       ],
-      "content_sample": "Commodity Markets Research & Outlook Commodity Markets Home Price Forecasts Report Archive Press Releases Blogs Select a EDS Sub navigation page selecting option, leaving this page Home Home Price Forecasts Report Archive Press Releases Blogs Report Commodity Markets Outlook, October 2026 Commodity prices are set to rise 23% in 2026 as global shocks mount, according to the World Bank Group’s latest Commodity Markets Outlook. Metal and minerals pr"
+      "content_sample": "Prices Blog Latest Commodity Prices Published Report Commodity Markets Outlook, October 2026 Commodity prices are set to rise 23% in 2026 as global shocks mount, according to the World Bank Group’s latest Commodity Markets Outlook. Metal and minerals prices are set to reach an all-time peak in 2026 as aluminum, copper, and tin prices hit record highs. Report Press release Commodity Markets Outlook, October 2026 Study Commodity Markets: Evolution,"
     },
     {
       "id": "usgs",
       "name": "USGS Copper Statistics",
       "tier": 2,
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information",
-      "checked_at": "2026-11-02T16:01:34+00:00",
-      "status": "error",
-      "error": "HTTP Error 504: Gateway Time-out",
+      "checked_at": "2026-11-09T16:27:21+00:00",
+      "status": "ok:200",
       "fingerprint": "8a0018754af4106313f06df3c74d2963aefeb9e39247bdc6eef151a2a62bd03d",
       "changed": false,
-      "keyword_hits": []
+      "keyword_hits": [
+        "copper",
+        "production"
+      ],
+      "content_sample": "Copper Statistics and Information | U.S. Board on Geographic Names The National Map USGS Library USGS Store Park Passes News News Releases Featured Stories Science Snippets Technical Announcements Media Contacts Connect Headquarters Locations Staff Profiles Social Media Careers Contact Us About About Us Survey Manual Key Officials Organization Congressional Budget Careers and Employees Office of Civil Rights Doing Business Emergency Management La"
     },
     {
       "id": "cochilco",
       "name": "COCHILCO",
       "tier": 2,
       "url": "https://www.cochilco.cl/",
-      "checked_at": "2026-11-02T16:01:34+00:00",
+      "checked_at": "2026-11-09T16:27:21+00:00",
       "status": "ok:200",
-      "fingerprint": "7c8668696826c99b498263f18d7c2ef746b4907e56b29ea8e70f024e0b7472db",
+      "fingerprint": "99cf2956668bced02d854aab014452123d1e5e1d63a53b04439e039b335a8079",
       "changed": true,
       "keyword_hits": [
         "cobre",

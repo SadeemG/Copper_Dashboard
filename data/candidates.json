@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-11-02T16:01:34+00:00",
+  "generated_at": "2026-11-09T16:27:21+00:00",
   "review_required": true,
   "curated_candidates": [
+    {
+      "source_tier": 1,
+      "status": "source-changed",
+      "title": "New content detected: Freeport-McMoRan",
+      "url": "https://investors.fcx.com/rss/pressrelease.aspx",
+      "keyword_hits": [
+        "Grasberg",
+        "copper",
+        "production"
+      ],
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
     {
       "source_tier": 1,
       "status": "source-changed",
@@ -11,7 +24,20 @@
         "Kamoa",
         "Kakula"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 1,
+      "status": "source-changed",
+      "title": "New content detected: Glencore",
+      "url": "https://www.glencore.com/media-and-insights/news",
+      "keyword_hits": [
+        "copper",
+        "Mutanda",
+        "Collahuasi"
+      ],
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
@@ -23,7 +49,7 @@
         "El Teniente",
         "production"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
@@ -36,7 +62,7 @@
         "Candelaria",
         "copper"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
@@ -49,7 +75,7 @@
         "Highland Valley",
         "copper"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
@@ -61,7 +87,7 @@
         "copper",
         "commodity markets outlook"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
@@ -74,7 +100,7 @@
         "Chile",
         "mercado"
       ],
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     }
   ],
@@ -82,243 +108,551 @@
     {
       "source_tier": 3,
       "status": "discovery",
-      "title": "Man Flew to Texas for the Last Cadillac CT5 - V in the Country , Drove It 1 , 400 Miles Home and Traded His Range Rover for an Escalade the Next Weekend",
-      "url": "https://www.torquenews.com/1/he-flew-texas-last-cadillac-ct5-v-country-drove-it-1400-miles-home-and-traded-his-range-rover",
-      "domain": "torquenews.com",
-      "published": "20261027T051500Z",
-      "language": "English",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "马斯克在天上赚疯了 ， 中国独角兽杀入核心赛道 ， 卡位万亿命门",
-      "url": "https://news.pedaily.cn/202610/570898.shtml",
-      "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "iPhone Duo开裂 、 大量订单取消 ： 黄牛血亏 ， 赚差价买房的算盘碎一地",
-      "url": "https://news.pedaily.cn/202610/570890.shtml",
-      "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "百世达完成天使+轮融资 ， 定义消费级桌面3D打印新形态",
-      "url": "https://news.pedaily.cn/202610/570906.shtml",
-      "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Promete alcalde apoyo a empleado municipal electrocutado",
-      "url": "https://puentelibre.mx/local/promete-alcalde-apoyo-a-empleado-municipal-electrocutado/",
-      "domain": "puentelibre.mx",
-      "published": "20261027T051500Z",
-      "language": "Spanish",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "桃竹苗分署勇奪全國身障技能賽勇奪3金4銀3銅 4名選手入選國際展能節國手",
-      "url": "https://n.yam.com/Article/20261027220577",
-      "domain": "n.yam.com",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Khắc khoải hồn phố cổ Hội An",
-      "url": "https://baomoi.com/khac-khoai-hon-pho-co-hoi-an-c56361403.epi",
-      "domain": "baomoi.com",
-      "published": "20261027T051500Z",
-      "language": "Vietnamese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": " 《 贵州省教育发展  十五五  规划 》 发布",
-      "url": "https://www.gzstv.com/a/3344dd7b887543bc962de95dca3c13ea",
-      "domain": "gzstv.com",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Mumbai - Pune News : मुंबई - पुणे द्रुतगती मार्गावरील जोडमार्गावर 1 नोव्हेंबरपासून मालवाहू वाहनांना बंदी ; नवीन वाहतूक नियम लागू",
-      "url": "https://www.prahaar.in/2026/10/27/ban-on-goods-vehicles-on-the-connector-roads-of-the-mumbai-pune-expressway-starting-november-1-new-traffic-rules-to-be-implemented/",
-      "domain": "prahaar.in",
-      "published": "20261027T051500Z",
-      "language": "Marathi",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Роман Матвеев : Кооперация поможет развивать рыбоводство в Кыргызстане",
-      "url": "https://www.vb.kg/doc/462561_roman_matveev:_kooperaciia_pomojet_razvivat_rybovodstvo_v_kyrgyzstane.html",
-      "domain": "vb.kg",
-      "published": "20261027T051500Z",
-      "language": "Russian",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Thune Tours Local Factory With A Towering Future",
-      "url": "https://www.yankton.net/community/article_af8826f5-65da-4e7e-a0f3-9c877f741ef5.html",
-      "domain": "yankton.net",
-      "published": "20261027T051500Z",
-      "language": "English",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "全国首个 、 推动跨品牌互联互通 ， 海尔承建的国家人工智能应用中试基地 （ 家居家电方向 ） 在青岛启动",
-      "url": "https://www.163.com/dy/article/LA8E84FJ0511B8LM.html",
+      "title": "10月新能源出口同比涨超144 %， 崔东树 ： 海外单车盈利更强 ， 拒绝低价内卷",
+      "url": "https://www.163.com/dy/article/LBA4KDQ20519APGA.html",
       "domain": "163.com",
-      "published": "20261027T051500Z",
+      "published": "20261109T070000Z",
       "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
       "source_tier": 3,
       "status": "discovery",
-      "title": "刚刚 ， GPT - 6 . 1 Terra震撼发布 ， 价格狂砍至十分之一",
-      "url": "https://news.pedaily.cn/202610/570913.shtml",
+      "title": " 「 沉睡艺人 」 总能翻红 ， 拿 「 大芒果 」 是有方法论的吗 ？ ",
+      "url": "https://news.pedaily.cn/202611/571513.shtml",
       "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
+      "published": "20261109T070000Z",
       "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     },
     {
       "source_tier": 3,
       "status": "discovery",
-      "title": "国产荧幕 ， 正在被东北叙事嘎嘎占领",
-      "url": "https://news.pedaily.cn/202610/570902.shtml",
-      "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "硅谷AI巨头的梦想和恐惧",
-      "url": "https://news.pedaily.cn/202610/570911.shtml",
-      "domain": "news.pedaily.cn",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Quên khóa chốt cabin xe tải , tài xế gây tai nạn , vợ tử vong thương tâm",
-      "url": "https://baomoi.com/quen-khoa-chot-cabin-xe-tai-tai-xe-gay-tai-nan-vo-tu-vong-thuong-tam-c56361433.epi",
-      "domain": "baomoi.com",
-      "published": "20261027T051500Z",
-      "language": "Vietnamese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "中兴通讯前三季度营收增长16 . 2 %： 连接+算力  战略打开增长新空间 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610273909479597.html",
-      "domain": "finance.eastmoney.com",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Maatalouden alasajo on vrä tapa korjata valtion taloutta",
-      "url": "https://www.maaseuduntulevaisuus.fi/paakirjoitus/db5d1d3c-c7f9-4244-b8a0-55a168d8691e",
-      "domain": "maaseuduntulevaisuus.fi",
-      "published": "20261027T051500Z",
-      "language": "Finnish",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "PGM - Metalle im Visier : Sibanye - Stillwater : Tarifabschlüsse sollen US - Platinmetallminen stabilisieren | wallstreetONLINE",
-      "url": "https://www.wallstreet-online.de/nachricht/21567383-pgm-metalle-visier-sibanye-stillwater-tarifabschluesse-us-platinmetallminen-stabilisieren",
-      "domain": "wallstreet-online.de",
-      "published": "20261027T051500Z",
-      "language": "German",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "Martes electorales , o el BOE como mitin",
-      "url": "https://www.elconfidencial.com/espana/tribuna/2026-10-27/decretos-ley-campana-electoral-gobierno-1hms_4451864/",
-      "domain": "elconfidencial.com",
-      "published": "20261027T051500Z",
-      "language": "Spanish",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "云南猪价格今日猪价 （ 最新云南猪价格今日猪价 ） ",
-      "url": "https://www.mastv.cc/shbk/177.html",
-      "domain": "mastv.cc",
-      "published": "20261027T051500Z",
-      "language": "Chinese",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
-      "reviewed": false
-    },
-    {
-      "source_tier": 3,
-      "status": "discovery",
-      "title": "iSpring Launches the BRO900 Seawater Desalination System to Deliver Reliable Fresh water at Sea",
-      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/plentisoft/ispring-launches-the-bro900-seawater-desalination-system-to-deliver-reliable-fresh-water-at-sea/2454607",
-      "domain": "manilatimes.net",
-      "published": "20261027T051500Z",
+      "title": "COP31 faces uphill battle as war , AI reshape climate agenda",
+      "url": "https://www.middle-east-online.com/en/cop31-faces-uphill-battle-war-ai-reshape-climate-agenda",
+      "domain": "middle-east-online.com",
+      "published": "20261109T070000Z",
       "language": "English",
-      "retrieved_at": "2026-11-02T16:01:34+00:00",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "İki tekerde devrim niteliğinde adım ! Otomobil konforu ve güvenliği motosiklete taşındı ! ",
+      "url": "https://www.yeniakit.com.tr/haber/iki-tekerde-devrim-niteliginde-adim-otomobil-konforu-ve-guvenligi-motosiklete-tasindi-2032523.html",
+      "domain": "yeniakit.com.tr",
+      "published": "20261109T070000Z",
+      "language": "Turkish",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "철이 , CCTV , 카메라 ... 이창동이 그  시선  에 담으려고 했던 것은",
+      "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0003282847&PAGE_CD=N0002&CMPT_CD=M0112",
+      "domain": "star.ohmynews.com",
+      "published": "20261109T070000Z",
+      "language": "Korean",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "  天山的女儿  贺娇龙",
+      "url": "http://www.dangjian.cn/xfdt/2026/11/06/detail_202611047839604.html",
+      "domain": "dangjian.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "进口小客车新车上牌  一件事  等5项公安交管便民利企改革新措施12月1日起实施 _ 光明网",
+      "url": "https://politics.gmw.cn/2026-11/09/content_39092501.htm",
+      "domain": "politics.gmw.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "数字人民币下一程 ： 从支付工具创新走向货币制度重构 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611093926136548.html",
+      "domain": "finance.eastmoney.com",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Blackout 17 novembre 2026 : cosa dicono UE e governi",
+      "url": "https://www.ligurianotizie.it/blackout-il-17-novembre-e-scorte-per-72-ore-cosa-ce-di-vero/2026/11/09/1288000/",
+      "domain": "ligurianotizie.it",
+      "published": "20261109T063000Z",
+      "language": "Italian",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "全国首单  制造业Token贷  落地南京 ， 精准服务  人工智能＋制造 _ 新浪财经 _ 新浪网",
+      "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniycmtu6258018.shtml",
+      "domain": "finance.sina.com.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "M6 MacBook Pro 体验 ： 38 块的灵魂 ， 一万五的身体",
+      "url": "https://tech.ifeng.com/c/8xuHn0eU5Ni",
+      "domain": "tech.ifeng.com",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "江苏 ： AI重塑安全风险防与治",
+      "url": "http://js.people.com.cn/n2/2026/1109/c358232-41745070.html",
+      "domain": "js.people.com.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Disclaimer - IOPscience",
+      "url": "https://iopscience.iop.org:443/page/disclaimer",
+      "domain": "iopscience.iop.org",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Как Кайрат Боранбаев превращает свою недвижимость в центры притяжения",
+      "url": "https://forbes.kz/articles/kak-kayrat-boranbaev-prevrashaet-svoyu-nedvizhimost-v-tsentry-prityazheniya-3cbdd5",
+      "domain": "forbes.kz",
+      "published": "20261109T063000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Dấu ấn cán bộ dân vận và điểm tựa từ chương trình  mẹ đỡ đầu  ",
+      "url": "https://baomoi.com/dau-an-can-bo-dan-van-va-diem-tua-tu-chuong-trinh-me-do-dau-c56466790.epi",
+      "domain": "baomoi.com",
+      "published": "20261109T063000Z",
+      "language": "Vietnamese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Украина атаковала Ленинградскую область : под ударом снова один из крупнейших НПЗ России - фото ; видео",
+      "url": "https://haqqin.az/newsarchive/397901",
+      "domain": "haqqin.az",
+      "published": "20261109T063000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "铁牛驰黑土 秋整备丰年",
+      "url": "https://www.hljnews.cn/jjny/content/2026-11/09/content_915915.html",
+      "domain": "hljnews.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "展文艺成果 ， 讲贵州故事 ！ 2026多彩贵州文化艺术节在贵阳开幕",
+      "url": "https://www.gzstv.com/a/2d95c3400b634ebdad6f02e11e657a2a",
+      "domain": "gzstv.com",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "全国首单  制造业Token贷  落地南京 ， 精准服务  人工智能＋制造  ",
+      "url": "https://www.yangtse.com/news/yw/202611/t20261109_410611.html",
+      "domain": "yangtse.com",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "COP31 to open in Turkey , with climate goals under pressure from war and AI",
+      "url": "https://dunyanews.tv/en/World/981927-cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-an",
+      "domain": "dunyanews.tv",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "刚刚 ，《 关于促进文化科技产学研用金一体化发展的倡议书 》 发布｜时刻在场 · 直击论坛 _ 科教 . 文卫 _ 湖南频道",
+      "url": "https://hn.rednet.cn/content/646055/91/16454394.html",
+      "domain": "hn.rednet.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Las dudas sobre la huelga general , resueltas :  Las represalias por hacerla son nulas , la empresa tendría que indemnizarte  ",
+      "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/las-dudas-sobre-huelga-general-resueltas-las-represalias-por-hacerla-son-nulas-empresa-tendria-que-indemnizarte_7058725_0.html",
+      "domain": "20minutos.es",
+      "published": "20261109T063000Z",
+      "language": "Spanish",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Critica eyes gallium , scandium bonus at WA rare earths giant",
+      "url": "https://www.smh.com.au/business/companies/critica-eyes-gallium-scandium-bonus-at-wa-rare-earths-giant-20261109-p61cp4.html",
+      "domain": "smh.com.au",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ACR 2026 : Dapirolizumab Pegol Associated with Greater Treatment Response Rates Versus Placebo in SLE Using Novel Treatment Response Measure",
+      "url": "https://www.simcoereformer.ca/press-releases/globe-newswire/acr-2026-dapirolizumab-pegol-associated-with-greater-treatment-response-rates-versus-placebo-in-sle-using-novel-treatment-response-measure/",
+      "domain": "simcoereformer.ca",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Soğuk Zincir ve Bina Yönetim Sistemlerini Siber - Fiziksel 1",
+      "url": "https://donanimgunlugu.com/soguk-zincir-ve-bina-yonetim-sistemleri-440575",
+      "domain": "donanimgunlugu.com",
+      "published": "20261109T063000Z",
+      "language": "Turkish",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Cole reflects on 41 years of serving the public",
+      "url": "https://www.shorelinemedia.net/ludington_daily_news/cole-reflects-on-41-years-of-serving-the-public/article_d8e3490c-2323-47fa-9bf4-dd0ebf7d8849.html",
+      "domain": "shorelinemedia.net",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "不止于软件开发 ： OpenAI用GPT加速物理世界的工程",
+      "url": "https://www.163.com/dy/article/LBA2BLEP0552A8U8.html",
+      "domain": "163.com",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "如何斩断私域  神药  的链条 ？（ 金台视线 ） -- 科普中国 -- 人民网",
+      "url": "http://kpzg.people.com.cn/n1/2026/1109/c404214-40830186.html",
+      "domain": "kpzg.people.com.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "How Xi steers China green transformation and global climate action",
+      "url": "http://www.californiatelegraph.com/news/279421049/how-xi-steers-china-green-transformation-and-global-climate-action",
+      "domain": "californiatelegraph.com",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "充换电协同走向干线 ， 犀重如何拓展电动化应用空间 ？ ",
+      "url": "https://k.sina.com.cn/article_1579773413_5e296de502701hrjw.html",
+      "domain": "k.sina.com.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "龙江森工集团 ： 全域统筹聚合力 跨区抚育护林海",
+      "url": "https://www.hljnews.cn/ljxw/content/2026-11/09/content_915967.html",
+      "domain": "hljnews.cn",
+      "published": "20261109T063000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Software reliability check MAGICQA20261109 06073",
+      "url": "https://radioamanecer.com.ar/software-reliability-check-magicqa20261109-06073/",
+      "domain": "radioamanecer.com.ar",
+      "published": "20261109T063000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Đà Nẵng : Đẩy mạnh thi công dự án trọng điểm , kết nối với Cửa khẩu quốc tế Nam Giang và nước Lào",
+      "url": "https://daidoanket.vn/da-nang-day-manh-thi-cong-du-an-trong-diem-ket-noi-voi-cua-khau-quoc-te-nam-giang-va-nuoc-lao.html",
+      "domain": "daidoanket.vn",
+      "published": "20261109T063000Z",
+      "language": "Vietnamese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Киришский НПЗ - дроны атаковали один из крупнейших заводов РФ",
+      "url": "https://glavred.info/war/v-leningradskoy-oblasti-gorit-krupnyy-npz-pod-udarom-toplivo-dlya-peterburga-10810490.html",
+      "domain": "glavred.info",
+      "published": "20261109T060000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "中国摩托企业在合作中与世界共享发展机遇",
+      "url": "http://www.china.com.cn/txt/2026-11/09/content_118767114.shtml",
+      "domain": "china.com.cn",
+      "published": "20261109T060000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "作品与传播同步治理 ！ AI短剧如何告别低俗化 、 同质化 ？ ",
+      "url": "http://www.china.com.cn/txt/2026-11/09/content_118767101.shtml",
+      "domain": "china.com.cn",
+      "published": "20261109T060000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "第一财经  跨越山海  报告在进博会发布 ， 上海服务新时期企业全球化大有作为",
+      "url": "https://www.yicai.com/news/103432075.html",
+      "domain": "yicai.com",
+      "published": "20261109T060000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": " ¡ Todos culpables ! ",
+      "url": "https://www.menorca.info/opinion/firmas-del-dia/2026/11/09/2744791/todos-culpables.html",
+      "domain": "menorca.info",
+      "published": "20261109T060000Z",
+      "language": "Spanish",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "KDI  AI 인프라 투자 중심으로 양호한 성장 … 가계 전반 확산은 안돼  ",
+      "url": "https://www.fnnews.com/news/202611091022135288",
+      "domain": "fnnews.com",
+      "published": "20261109T060000Z",
+      "language": "Korean",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "ترمب : استئناف الحرب مع إيران  غير مرجح إلى حد كبير  ",
+      "url": "https://alquds.com/ar/posts/271082",
+      "domain": "alquds.com",
+      "published": "20261109T060000Z",
+      "language": "Arabic",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "川普威胁一小时炸毁38座桥 伊朗 ： 选战争倾泻地狱",
+      "url": "https://www.wenxuecity.com/news/2026/11/08/126830628.html",
+      "domain": "wenxuecity.com",
+      "published": "20261109T060000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Cummins Q3 Earnings Call Highlights",
+      "url": "https://www.tickerreport.com/banking-finance/13655795/cummins-q3-earnings-call-highlights.html",
+      "domain": "tickerreport.com",
+      "published": "20261109T060000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Strathcona Resources Ltd . Announces Agreement to Acquire Greenfire Resources Ltd . ",
+      "url": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-announces-agreement-to-acquire-greenfire-resources-ltd-302932925.html",
+      "domain": "prnewswire.com",
+      "published": "20261109T060000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Federal Register :: Removing 30 - Day Refugee Termination Notice",
+      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20956/removing-30-day-refugee-termination-notice",
+      "domain": "federalregister.gov",
+      "published": "20261109T060000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "What Atlassian ( TEAM ) Said on Its Q1 Earnings Call",
+      "url": "https://www.dailypolitical.com/2026/11/08/what-atlassian-team-said-on-its-q1-earnings-call.html",
+      "domain": "dailypolitical.com",
+      "published": "20261109T060000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Un país que casi no existe ( 6 ). El último profeta de Dios",
+      "url": "https://acento.com.do/opinion/un-pais-que-casi-no-existe-6-el-ultimo-profeta-de-dios-9786434.html",
+      "domain": "acento.com.do",
+      "published": "20261109T060000Z",
+      "language": "Spanish",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "黄仁勋承认婚外情 英伟达董事会启动独立调查",
+      "url": "https://original.ifeng.com/c/8xuFONrBki2",
+      "domain": "original.ifeng.com",
+      "published": "20261109T060000Z",
+      "language": "Chinese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Атака на КИНЕФ 8 ноября дроны нанесли удар по одному из крупнейших НПЗ России",
+      "url": "https://focus.ua/voennye-novosti/774026-ataka-na-kinef-8-noyabrya-drony-nanesli-udar-po-odnomu-iz-krupneyshih-npz-rossii",
+      "domain": "focus.ua",
+      "published": "20261109T060000Z",
+      "language": "Russian",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Strathcona Resources Ltd . Reports Third Quarter 2026 Financial and Operating Results and Announces Quarterly Dividend",
+      "url": "https://www.prnewswire.com/news-releases/strathcona-resources-ltd-reports-third-quarter-2026-financial-and-operating-results-and-announces-quarterly-dividend-302932929.html",
+      "domain": "prnewswire.com",
+      "published": "20261109T060000Z",
+      "language": "English",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
+      "reviewed": false
+    },
+    {
+      "source_tier": 3,
+      "status": "discovery",
+      "title": "Đại biểu Quốc hội , người làm việc từ xa , online đối mặt rủi ro pháp lý rất lớn",
+      "url": "http://vov.vn/xa-hoi/dai-bieu-quoc-hoi-nguoi-lam-viec-tu-xa-online-doi-mat-rui-ro-phap-ly-rat-lon-post1348534.vov",
+      "domain": "vov.vn",
+      "published": "20261109T060000Z",
+      "language": "Vietnamese",
+      "retrieved_at": "2026-11-09T16:27:21+00:00",
       "reviewed": false
     }
   ],
